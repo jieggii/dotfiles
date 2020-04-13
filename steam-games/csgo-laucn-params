@@ -1,0 +1,1 @@
+xfconf-query -c xfwm4 -p /general/use_compositing -s false; gamemoderun %command% -novid -noforcemaccel -noforcemspd -noforcemparms -fullscreen; xfconf-query -c xfwm4 -p /general/use_compositing -s true
