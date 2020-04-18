@@ -32,6 +32,7 @@ bindsym $mod+Shift+q kill
 # start program launcher
 #bindsym $mod+d exec --no-startup-id dmenu_recency
 bindsym $mod+d exec --no-startup-id rofi -theme solarized -font "System San Fransisco Display 15" -show run
+#bindsym $mod+r exec --no-startup-id ranger
 # launch categorized menu
 #bindsym $mod+z exec --no-startup-id morc_menu
 
@@ -67,27 +68,13 @@ bindsym $mod+Shift+Print --release exec --no-startup-id i3-scrot -s
 bindsym $mod+Shift+h exec xdg-open /usr/share/doc/manjaro/i3_help.pdf
 bindsym $mod+Ctrl+x --release exec --no-startup-id xkill
 
-# focus_follows_mouse no
-
-# change focus
-#bindsym $mod+j focus left
-#bindsym $mod+k focus down
-#bindsym $mod+l focus up
-#bindsym $mod+semicolon focus right
-
-# alternatively, you can use the cursor keys:
+# focus
 bindsym $mod+Left focus left
 bindsym $mod+Down focus down
 bindsym $mod+Up focus up
 bindsym $mod+Right focus right
 
 # move focused window
-#bindsym $mod+Shift+j move left
-#bindsym $mod+Shift+k move down
-#bindsym $mod+Shift+l move up
-#bindsym $mod+Shift+semicolon move right
-
-# alternatively, you can use the cursor keys:
 bindsym $mod+Shift+Left move left
 bindsym $mod+Shift+Down move down
 bindsym $mod+Shift+Up move up
@@ -99,8 +86,8 @@ bindsym $mod+b workspace back_and_forth
 bindsym $mod+Shift+b move container to workspace back_and_forth; workspace back_and_forth
 
 # split orientation
-bindsym $mod+h split h;exec notify-send 'Tiling horizontally'
-bindsym $mod+v split v;exec notify-send 'Tiling vertically'
+bindsym $mod+h split h;exec notify-send 'Tiling horizontally -'
+bindsym $mod+v split v;exec notify-send 'Tiling vertically |'
 bindsym $mod+q split toggle
 
 # toggle fullscreen mode for the focused container
@@ -139,10 +126,10 @@ bindsym $mod+Ctrl+Left workspace prev
 # something like: set $ws1 1:mail
 #                 set $ws2 2:
 set $ws1 1:1: Browser
-set $ws2 2:2: Editor
-set $ws3 3:3: Social
-set $ws4 4:4: Game
-set $ws5 5
+set $ws2 2:2: Terminal
+set $ws3 3:3: Editor
+set $ws4 4:4: Social
+set $ws5 5:5: Game
 set $ws6 6
 set $ws7 7
 set $ws8 8
@@ -249,12 +236,6 @@ mode "resize" {
         # Pressing right will grow the window’s width.
         # Pressing up will shrink the window’s height.
         # Pressing down will grow the window’s height.
-        #bindsym j resize shrink width 5 px or 5 ppt
-        #bindsym k resize grow height 5 px or 5 ppt
-        #bindsym l resize shrink height 5 px or 5 ppt
-        #bindsym semicolon resize grow width 5 px or 5 ppt
-
-        # same bindings, but for the arrow keys
         bindsym Left resize shrink width 10 px or 10 ppt
         bindsym Down resize grow height 10 px or 10 ppt
         bindsym Up resize shrink height 10 px or 10 ppt
@@ -270,7 +251,7 @@ bindsym $mod+9 exec --no-startup-id blurlock
 
 # Autostart applications
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
-#exec --no-startup-id nitrogen --restore; sleep 1; compton -b
+exec_always --no-startup-id nitrogen --restore ~/.wallpapers/
 exec --no-startup-id manjaro-hello
 exec --no-startup-id nm-applet
 exec --no-startup-id xfce4-power-manager
@@ -336,8 +317,8 @@ bar {
         statusline #F9FAF9
         separator #454947
 
-#                      border  backgr. text
-        focused_workspace  #F9FAF9 #37afbd #292F34
+#                           border   bg      text
+        focused_workspace  #37afbd #37afbd #292F34
         active_workspace   #595B5B #353836 #FDF6E3
         inactive_workspace #595B5B #222D31 #EEE8D5
         binding_mode       #16a085 #2C2C2C #F9FAF9
@@ -414,9 +395,6 @@ mode "$mode_gaps_outer" {
         bindsym Return mode "default"
         bindsym Escape mode "default"
 }
-
-# Wallpaper
-exec_always --no-startup-id bash .fehbg
 
 # Start / restart compton
 exec_always --no-startup-id "killall compton; compton -f --config ~/.config/compton.conf"
