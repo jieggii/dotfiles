@@ -86,8 +86,8 @@ bindsym $mod+b workspace back_and_forth
 bindsym $mod+Shift+b move container to workspace back_and_forth; workspace back_and_forth
 
 # split orientation
-bindsym $mod+h split h;exec notify-send 'Tiling horizontally -'
-bindsym $mod+v split v;exec notify-send 'Tiling vertically |'
+bindsym $mod+h split h;exec notify-send 'Tiling horizontally'
+bindsym $mod+v split v;exec notify-send 'Tiling vertically'
 bindsym $mod+q split toggle
 
 # toggle fullscreen mode for the focused container
@@ -135,10 +135,10 @@ set $ws7 7
 set $ws8 8
 
 # Open applications on specific workspaces
-assign [class="Firefox"] $ws1
-assign [class="Discord"] $ws3
-assign [class="Steam"] $ws3
-assign [class="Telegram desktop"] $ws3
+assign [class="firefox"] $ws1
+assign [class="discord"] $ws4
+assign [class="Steam"] $ws4
+assign [class="TelegramDesktop"] $ws4
 
 # switch to workspace
 bindsym $mod+1 workspace $ws1
@@ -199,6 +199,18 @@ for_window [class="Timeset-gui"] floating enable border normal
 for_window [class="(?i)virtualbox"] floating enable border normal
 for_window [class="Xfburn"] floating enable
 
+# https://github.com/ValveSoftware/steam-for-linux/issues/1040
+for_window [class="^Steam$" title="^Friends$"] floating enable
+for_window [class="^Steam$" title="Steam - News"] floating enable
+for_window [class="^Steam$" title=".* - Chat"] floating enable
+for_window [class="^Steam$" title="^Settings$"] floating enable
+for_window [class="^Steam$" title=".* - event started"] floating enable
+for_window [class="^Steam$" title=".* CD key"] floating enable
+for_window [class="^Steam$" title="^Steam - Self Updater$"] floating enable
+for_window [class="^Steam$" title="^Screenshot Uploader$"] floating enable
+for_window [class="^Steam$" title="^Steam Guard - Computer Authorization Required$"] floating enable
+for_window [title="^Steam Keyboard$"] floating enable
+
 # switch to workspace with urgent window automatically
 for_window [urgent=latest] focus
 
@@ -251,7 +263,8 @@ bindsym $mod+9 exec --no-startup-id blurlock
 
 # Autostart applications
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
-exec_always --no-startup-id nitrogen --restore ~/.wallpapers/
+exec --no-startup-id nitrogen --restore ~/.wallpapers/
+#exec --no-startup-id compton -b
 exec --no-startup-id manjaro-hello
 exec --no-startup-id nm-applet
 exec --no-startup-id xfce4-power-manager
@@ -299,7 +312,7 @@ set_from_resource $term_color15    color15
 # Start i3bar to display a workspace bar (plus the system information i3status if available)
 bar {
 	i3bar_command i3bar
-	status_command i3status
+	status_command i3blocks #i3status
 	position bottom
 	height 24
 
@@ -309,7 +322,7 @@ bar {
 
 	bindsym button4 nop
 	bindsym button5 nop
-	font xft:System San Fransisco Display 11
+	font xft:System San Fransisco Display 12
 	strip_workspace_numbers yes
 
     colors {
