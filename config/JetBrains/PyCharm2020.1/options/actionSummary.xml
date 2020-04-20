@@ -1,0 +1,126 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <data>
+      <entry key="$Copy">
+        <ActionSummary times="2" last="1587044304723" />
+      </entry>
+      <entry key="$Delete">
+        <ActionSummary times="5" last="1587047032296" />
+      </entry>
+      <entry key="$Paste">
+        <ActionSummary times="1" last="1587044305515" />
+      </entry>
+      <entry key="$SelectAll">
+        <ActionSummary times="7" last="1587047409689" />
+      </entry>
+      <entry key="$Undo">
+        <ActionSummary times="95" last="1587047776547" />
+      </entry>
+      <entry key="CloseAllEditors">
+        <ActionSummary times="2" last="1587134884160" />
+      </entry>
+      <entry key="CommentByLineComment">
+        <ActionSummary times="15" last="1587046863383" />
+      </entry>
+      <entry key="EditorBackSpace">
+        <ActionSummary times="461" last="1587048372894" />
+      </entry>
+      <entry key="EditorChooseLookupItem">
+        <ActionSummary times="25" last="1587048384358" />
+      </entry>
+      <entry key="EditorChooseLookupItemReplace">
+        <ActionSummary times="143" last="1587048365630" />
+      </entry>
+      <entry key="EditorCopy">
+        <ActionSummary times="31" last="1587047400593" />
+      </entry>
+      <entry key="EditorCut">
+        <ActionSummary times="50" last="1587047705139" />
+      </entry>
+      <entry key="EditorDeleteToWordStart">
+        <ActionSummary times="1" last="1587044831726" />
+      </entry>
+      <entry key="EditorDown">
+        <ActionSummary times="39" last="1587047897868" />
+      </entry>
+      <entry key="EditorEnter">
+        <ActionSummary times="120" last="1587135038066" />
+      </entry>
+      <entry key="EditorLeft">
+        <ActionSummary times="63" last="1587048383006" />
+      </entry>
+      <entry key="EditorNextWord">
+        <ActionSummary times="29" last="1587045397680" />
+      </entry>
+      <entry key="EditorNextWordWithSelection">
+        <ActionSummary times="12" last="1587045406672" />
+      </entry>
+      <entry key="EditorPaste">
+        <ActionSummary times="42" last="1587047406713" />
+      </entry>
+      <entry key="EditorPreviousWord">
+        <ActionSummary times="60" last="1587048370102" />
+      </entry>
+      <entry key="EditorPreviousWordWithSelection">
+        <ActionSummary times="11" last="1587045406274" />
+      </entry>
+      <entry key="EditorRight">
+        <ActionSummary times="79" last="1587047897677" />
+      </entry>
+      <entry key="EditorRightWithSelection">
+        <ActionSummary times="3" last="1587045181847" />
+      </entry>
+      <entry key="EditorScrollUp">
+        <ActionSummary times="2" last="1587047045640" />
+      </entry>
+      <entry key="EditorSplitLine">
+        <ActionSummary times="1" last="1587044563869" />
+      </entry>
+      <entry key="EditorTab">
+        <ActionSummary times="16" last="1587047801980" />
+      </entry>
+      <entry key="EditorUp">
+        <ActionSummary times="77" last="1587048362566" />
+      </entry>
+      <entry key="GotoDeclaration">
+        <ActionSummary times="4" last="1587045973875" />
+      </entry>
+      <entry key="MarkSourceRoot">
+        <ActionSummary times="2" last="1587047390210" />
+      </entry>
+      <entry key="NewFile">
+        <ActionSummary times="2" last="1587047037575" />
+      </entry>
+      <entry key="NewPythonFile">
+        <ActionSummary times="3" last="1587044828411" />
+      </entry>
+      <entry key="OpenFile">
+        <ActionSummary times="1" last="1587042226599" />
+      </entry>
+      <entry key="RenameElement">
+        <ActionSummary times="2" last="1587044759130" />
+      </entry>
+      <entry key="Run">
+        <ActionSummary times="62" last="1587043752160" />
+      </entry>
+      <entry key="RunClass">
+        <ActionSummary times="3" last="1587043635079" />
+      </entry>
+      <entry key="SaveAll">
+        <ActionSummary times="921" last="1587144277568" />
+      </entry>
+      <entry key="ShowSettings">
+        <ActionSummary times="1" last="1586947427666" />
+      </entry>
+      <entry key="Stop">
+        <ActionSummary times="2" last="1586952176667" />
+      </entry>
+      <entry key="SurroundWith">
+        <ActionSummary times="1" last="1586952648606" />
+      </entry>
+      <entry key="WelcomeScreen.OpenDirectoryProject">
+        <ActionSummary times="1" last="1586947408460" />
+      </entry>
+    </data>
+  </component>
+</application>

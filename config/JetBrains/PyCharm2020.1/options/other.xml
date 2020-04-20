@@ -1,0 +1,29 @@
+<application>
+  <component name="NotRoamableUiSettings">
+    <option name="fontScale" value="1.0" />
+    <option name="fontSize" value="14" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="NonModalCommitCustomization.IsApplied" value="true" />
+    <property name="PyCharm.InitialConfiguration" value="true" />
+    <property name="PyCharm.InitialConfiguration.V2" value="true" />
+    <property name="PyCharm.InitialConfiguration.V3" value="true" />
+    <property name="PyCharm.InitialConfiguration.V4" value="true" />
+    <property name="PyCharm.InitialConfiguration.V5" value="true" />
+    <property name="PyCharm.InitialConfiguration.V6" value="true" />
+    <property name="PyCharm.InitialConfiguration.V7" value="true" />
+    <property name="appcds.runOnSecondStart" value="PY-201.6668.115-0fc82f898b9ad555822c54ec38b57c66078b598630e657f5bf36a902d81a850a" />
+    <property name="ask.about.ctrl.y.shortcut" value="true" />
+    <property name="evlsprt3.201" value="11" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/projects/witless&#10;/home/jieggii/projects/rofl" />
+    <property name="file.gist.reindex.count" value="3306" />
+    <property name="fileTypeChangedCounter" value="3" />
+    <property name="ide.memory.adjusted" value="true" />
+    <property name="lastSeenTip" value="neue-HighlightUsagesInFile.html" />
+    <property name="lastTimeTipsWereShown" value="1586947422207" />
+    <property name="last_opened_file_path" value="$USER_HOME$/projects/rofl" />
+    <property name="seenTips" value="neue-HighlightUsagesInFile.html" />
+    <property name="tasks.pass.word.conversion.enforced" value="true" />
+    <property name="ts.lib.d.ts.version" value="3.8.2" />
+  </component>
+</application>

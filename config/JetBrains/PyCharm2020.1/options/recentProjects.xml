@@ -1,0 +1,38 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/projects/rofl">
+          <value>
+            <RecentProjectMetaInfo projectWorkspaceId="1aZeCRTRFblTFKCANlOAA3MeJxU">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-201.6668.115" />
+              <option name="buildTimestamp" value="1586256090943" />
+              <frame x="12" y="17" width="941" height="1051" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1587042097399" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/projects/witless">
+          <value>
+            <RecentProjectMetaInfo opened="true" projectWorkspaceId="1ackNakXedaUxH8qIsqG4YN2r3b">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-201.6668.115" />
+              <option name="buildTimestamp" value="1586256115257" />
+              <frame x="0" y="-20" width="1920" height="1076" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1587144240315" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="recentPaths">
+      <list>
+        <option value="$USER_HOME$/projects/witless" />
+        <option value="$USER_HOME$/projects/rofl" />
+      </list>
+    </option>
+  </component>
+</application>
