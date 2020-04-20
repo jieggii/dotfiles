@@ -1,9 +1,10 @@
 {
 	"folder_history":
 	[
+		"/home/jieggii/dotfiles"
 	],
 	"last_version": 3211,
-	"last_window_id": 2,
+	"last_window_id": 3,
 	"log_indexing": false,
 	"settings":
 	{
@@ -14,6 +15,18 @@
 			{
 				"selected_items":
 				[
+					[
+						"com",
+						"compton"
+					],
+					[
+						"bind",
+						"bindsym"
+					],
+					[
+						"as",
+						"assign"
+					]
 				]
 			},
 			"build_system_choices":
@@ -27,12 +40,20 @@
 				"selected_items":
 				[
 					[
-						"install p",
+						"install",
 						"Package Control: Install Package"
 					],
 					[
-						"install",
-						"Install Package Control"
+						"color sche",
+						"UI: Select Color Scheme"
+					],
+					[
+						"isnta",
+						"Package Control: Install Package"
+					],
+					[
+						"install p",
+						"Package Control: Install Package"
 					],
 					[
 						"instal",
@@ -59,10 +80,18 @@
 			},
 			"file_history":
 			[
+				"/home/jieggii/.config/rofi/config.rasi",
+				"/home/jieggii/.i3/config",
+				"/home/jieggii/.config/termite/config",
+				"/home/jieggii/.config/compton.conf",
+				"/home/jieggii/.config/termite/config.backup",
+				"/home/jieggii/.config/polybar/config",
+				"/home/jieggii/.config/config",
+				"/home/jieggii/dotfiles/.i3/config"
 			],
 			"find":
 			{
-				"height": 0.0
+				"height": 72.0
 			},
 			"find_in_files":
 			{
@@ -76,6 +105,15 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"compton",
+					"nitrogen",
+					"bar/",
+					"bar/exa",
+					"nitrogen",
+					"mod+f",
+					"mod+r",
+					"bar",
+					"conk"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -92,7 +130,7 @@
 			},
 			"incremental_find":
 			{
-				"height": 0.0
+				"height": 34.0
 			},
 			"input":
 			{
@@ -106,7 +144,7 @@
 			"pinned_build_system": "",
 			"replace":
 			{
-				"height": 0.0
+				"height": 64.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -137,10 +175,10 @@
 				"width": 0.0
 			},
 			"show_minimap": true,
-			"show_open_files": false,
+			"show_open_files": true,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 150.0,
+			"side_bar_width": 396.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
@@ -188,6 +226,14 @@
 						"Package Control: Install Package"
 					],
 					[
+						"color sche",
+						"UI: Select Color Scheme"
+					],
+					[
+						"isnta",
+						"Package Control: Install Package"
+					],
+					[
 						"install p",
 						"Package Control: Install Package"
 					],
@@ -214,19 +260,26 @@
 				"side_bar_visible": false,
 				"status_bar_visible": false
 			},
+			"expanded_folders":
+			[
+			],
 			"file_history":
 			[
+				"/home/jieggii/dotfiles/update.sh",
+				"/home/jieggii/dotfiles/steam-games/csgo-launch-params",
+				"/home/jieggii/dotfiles/README.md",
+				"/home/jieggii/.config/rofi/config.rasi",
+				"/home/jieggii/.i3/config",
 				"/home/jieggii/.config/termite/config",
 				"/home/jieggii/.config/compton.conf",
 				"/home/jieggii/.config/termite/config.backup",
 				"/home/jieggii/.config/polybar/config",
-				"/home/jieggii/.i3/config",
 				"/home/jieggii/.config/config",
 				"/home/jieggii/dotfiles/.i3/config"
 			],
 			"find":
 			{
-				"height": 41.0
+				"height": 74.0
 			},
 			"find_in_files":
 			{
@@ -263,6 +316,12 @@
 				"whole_word": false,
 				"wrap": true
 			},
+			"folders":
+			[
+				{
+					"path": "/home/jieggii/dotfiles"
+				}
+			],
 			"groups":
 			[
 				{
@@ -273,7 +332,7 @@
 			],
 			"incremental_find":
 			{
-				"height": 29.0
+				"height": 36.0
 			},
 			"input":
 			{
@@ -307,11 +366,11 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,0,0,1920,1056,1920,1080",
+			"position": "0,0,0,0,0,5,5,955,1051,1920,1080",
 			"project": "",
 			"replace":
 			{
-				"height": 54.0
+				"height": 68.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -346,10 +405,10 @@
 			{
 			},
 			"show_minimap": true,
-			"show_open_files": false,
+			"show_open_files": true,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 150.0,
+			"side_bar_width": 227.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{

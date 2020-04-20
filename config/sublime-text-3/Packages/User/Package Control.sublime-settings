@@ -6,6 +6,8 @@
 	"installed_packages":
 	[
 		"i3 wm",
-		"Package Control"
+		"Nord",
+		"Package Control",
+		"Theme - Dark Material"
 	]
 }

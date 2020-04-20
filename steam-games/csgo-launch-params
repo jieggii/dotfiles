@@ -1,0 +1,1 @@
+killall compton; gamemoderun %command% -novid -noforcemaccel -noforcemspd -noforcemparms; compton -b
