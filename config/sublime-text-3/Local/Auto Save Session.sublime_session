@@ -213,8 +213,16 @@
 					"file": "/home/jieggii/dotfiles/update.sh",
 					"settings":
 					{
-						"buffer_size": 300,
+						"buffer_size": 287,
 						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/jieggii/dotfiles/config/termite/config.backup",
+					"settings":
+					{
+						"buffer_size": 1965,
 						"line_ending": "Unix"
 					}
 				}
@@ -271,11 +279,14 @@
 			},
 			"expanded_folders":
 			[
-				"/home/jieggii/dotfiles"
+				"/home/jieggii/dotfiles",
+				"/home/jieggii/dotfiles/config",
+				"/home/jieggii/dotfiles/config/termite"
 			],
 			"file_history":
 			[
 				"/home/jieggii/dotfiles/update.sh",
+				"/home/jieggii/.zshrc",
 				"/home/jieggii/dotfiles/config/neofetch/config.conf",
 				"/home/jieggii/dotfiles/steam-games/csgo-launch-params",
 				"/home/jieggii/dotfiles/README.md",
@@ -345,15 +356,15 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 300,
+								"buffer_size": 287,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										299,
-										299
+										286,
+										286
 									]
 								],
 								"settings":
@@ -365,6 +376,34 @@
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/jieggii/dotfiles/config/termite/config.backup",
+							"semi_transient": true,
+							"settings":
+							{
+								"buffer_size": 1965,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
 							"type": "text"
 						}
 					]
