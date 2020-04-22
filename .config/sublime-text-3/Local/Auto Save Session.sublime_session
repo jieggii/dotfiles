@@ -209,6 +209,24 @@
 			},
 			"buffers":
 			[
+				{
+					"file": "/home/jieggii/.i3/config",
+					"settings":
+					{
+						"buffer_size": 16119,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/jieggii/.config/polybar/config",
+					"settings":
+					{
+						"buffer_size": 5256,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -221,6 +239,14 @@
 				"last_filter": "",
 				"selected_items":
 				[
+					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
+						"ini",
+						"Set Syntax: INI"
+					],
 					[
 						"install",
 						"Package Control: Install Package"
@@ -236,10 +262,6 @@
 					[
 						"install p",
 						"Package Control: Install Package"
-					],
-					[
-						"instal",
-						"Install Package Control"
 					]
 				],
 				"width": 0.0
@@ -262,10 +284,15 @@
 			},
 			"expanded_folders":
 			[
+				"/home/jieggii/dotfiles",
+				"/home/jieggii/dotfiles/config",
+				"/home/jieggii/dotfiles/config/termite"
 			],
 			"file_history":
 			[
 				"/home/jieggii/dotfiles/update.sh",
+				"/home/jieggii/.zshrc",
+				"/home/jieggii/dotfiles/config/neofetch/config.conf",
 				"/home/jieggii/dotfiles/steam-games/csgo-launch-params",
 				"/home/jieggii/dotfiles/README.md",
 				"/home/jieggii/.config/rofi/config.rasi",
@@ -279,7 +306,7 @@
 			],
 			"find":
 			{
-				"height": 74.0
+				"height": 70.0
 			},
 			"find_in_files":
 			{
@@ -293,6 +320,16 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"memory",
+					"logo",
+					"module",
+					"pulsea",
+					"%name%",
+					"margin",
+					"bottob",
+					"green",
+					"con",
+					"conky",
 					"compton",
 					"nitrogen",
 					"bar/",
@@ -325,14 +362,71 @@
 			"groups":
 			[
 				{
+					"selected": 1,
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "/home/jieggii/.i3/config",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 16119,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										10924,
+										10924
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/i3 wm/Syntax/i3wm_config.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 5158.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/jieggii/.config/polybar/config",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 5256,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										3435,
+										3435
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/INI/INI.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 2040.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
 					]
 				}
 			],
 			"incremental_find":
 			{
-				"height": 36.0
+				"height": 27.0
 			},
 			"input":
 			{
@@ -366,11 +460,11 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,5,5,955,1051,1920,1080",
+			"position": "0,0,0,0,0,0,0,1920,1080,1920,1080",
 			"project": "",
 			"replace":
 			{
-				"height": 68.0
+				"height": 50.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -404,7 +498,7 @@
 			"settings":
 			{
 			},
-			"show_minimap": true,
+			"show_minimap": false,
 			"show_open_files": true,
 			"show_tabs": true,
 			"side_bar_visible": true,

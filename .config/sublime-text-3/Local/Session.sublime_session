@@ -210,19 +210,11 @@
 			"buffers":
 			[
 				{
-					"file": "/home/jieggii/dotfiles/update.sh",
+					"file": "/home/jieggii/.i3/config",
 					"settings":
 					{
-						"buffer_size": 287,
+						"buffer_size": 16119,
 						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/jieggii/dotfiles/config/termite/config.backup",
-					"settings":
-					{
-						"buffer_size": 1965,
 						"line_ending": "Unix"
 					}
 				}
@@ -301,7 +293,7 @@
 			],
 			"find":
 			{
-				"height": 29.0
+				"height": 70.0
 			},
 			"find_in_files":
 			{
@@ -315,6 +307,9 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"green",
+					"con",
+					"conky",
 					"compton",
 					"nitrogen",
 					"bar/",
@@ -352,58 +347,30 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/home/jieggii/dotfiles/update.sh",
+							"file": "/home/jieggii/.i3/config",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 287,
+								"buffer_size": 16119,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										286,
-										286
+										10924,
+										10924
 									]
 								],
 								"settings":
 								{
-									"syntax": "Packages/ShellScript/Bash.sublime-syntax"
+									"syntax": "Packages/i3 wm/Syntax/i3wm_config.tmLanguage"
 								},
 								"translation.x": 0.0,
-								"translation.y": 0.0,
+								"translation.y": 5158.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/home/jieggii/dotfiles/config/termite/config.backup",
-							"semi_transient": true,
-							"settings":
-							{
-								"buffer_size": 1965,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
 							"type": "text"
 						}
 					]

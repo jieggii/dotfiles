@@ -5,7 +5,9 @@
 	],
 	"installed_packages":
 	[
+		"AutoFileName",
 		"i3 wm",
+		"INI",
 		"Nord",
 		"Package Control",
 		"Theme - Dark Material"
