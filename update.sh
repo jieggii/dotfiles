@@ -3,8 +3,7 @@ rm -rf .config && mkdir .config && cd .config/
 cp -r ~/.config/rofi .
 cp -r ~/.config/ranger .
 cp -r ~/.config/termite .
-cp -r ~/.config/sublime-text-3 .
-#cp -r ~/.config/polybar .
+cp -r ~/.config/i3blocks .
 cp ~/.config/compton.conf .
 cd ..
 

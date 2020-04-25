@@ -1,4 +1,3 @@
-
 set $mod Mod4
 
 # set default desktop layout (default is tiling)
@@ -309,9 +308,13 @@ set_from_resource $term_color14    color14
 set_from_resource $term_color15    color15
 
 # Start i3bar to display a workspace bar (plus the system information i3status if available)
+
+
+
+
 bar {
 	i3bar_command i3bar
-	status_command i3blocks #i3status
+	status_command i3blocks
 	position bottom
 	height 24
 
@@ -321,20 +324,20 @@ bar {
 
 	bindsym button4 nop
 	bindsym button5 nop
-	font xft:System San Fransisco Display 12
+	font xft:System San Fransisco Display 13
 	strip_workspace_numbers no
 
     colors {
-        background #222D31
+        background #2E3440
         statusline #F9FAF9
         separator #454947
 
 #                           border   bg      text
-        focused_workspace  #37afbd #37afbd #292F34
-        active_workspace   #595B5B #353836 #FDF6E3
-        inactive_workspace #595B5B #222D31 #EEE8D5
-        binding_mode       #16a085 #2C2C2C #F9FAF9
-        urgent_workspace   #16a085 #FDF6E3 #E5201D
+        focused_workspace  #88C0D0 #88C0D0 #292F34
+        active_workspace   #222D31 #353836 #FDF6E3
+        inactive_workspace #222D31 #2E3440 #d8dee9
+        binding_mode       #222D31 #2C2C2C #F9FAF9
+        urgent_workspace   #222D31 #FDF6E3 #E5201D
     }
 }
 

@@ -4,7 +4,7 @@
 		"/home/jieggii/dotfiles"
 	],
 	"last_version": 3211,
-	"last_window_id": 3,
+	"last_window_id": 5,
 	"log_indexing": false,
 	"settings":
 	{
@@ -40,6 +40,14 @@
 				"selected_items":
 				[
 					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
+						"ini",
+						"Set Syntax: INI"
+					],
+					[
 						"install",
 						"Package Control: Install Package"
 					],
@@ -54,10 +62,6 @@
 					[
 						"install p",
 						"Package Control: Install Package"
-					],
-					[
-						"instal",
-						"Install Package Control"
 					]
 				],
 				"width": 0.0
@@ -80,18 +84,23 @@
 			},
 			"file_history":
 			[
+				"/home/jieggii/.config/polybar/config",
+				"/home/jieggii/dotfiles/update.sh",
+				"/home/jieggii/.zshrc",
+				"/home/jieggii/dotfiles/config/neofetch/config.conf",
+				"/home/jieggii/dotfiles/steam-games/csgo-launch-params",
+				"/home/jieggii/dotfiles/README.md",
 				"/home/jieggii/.config/rofi/config.rasi",
 				"/home/jieggii/.i3/config",
 				"/home/jieggii/.config/termite/config",
 				"/home/jieggii/.config/compton.conf",
 				"/home/jieggii/.config/termite/config.backup",
-				"/home/jieggii/.config/polybar/config",
 				"/home/jieggii/.config/config",
 				"/home/jieggii/dotfiles/.i3/config"
 			],
 			"find":
 			{
-				"height": 72.0
+				"height": 27.0
 			},
 			"find_in_files":
 			{
@@ -105,6 +114,19 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"lock",
+					"blur",
+					"blurlock",
+					"memory",
+					"logo",
+					"module",
+					"pulsea",
+					"%name%",
+					"margin",
+					"bottob",
+					"green",
+					"con",
+					"conky",
 					"compton",
 					"nitrogen",
 					"bar/",
@@ -130,7 +152,7 @@
 			},
 			"incremental_find":
 			{
-				"height": 34.0
+				"height": 27.0
 			},
 			"input":
 			{
@@ -144,7 +166,7 @@
 			"pinned_build_system": "",
 			"replace":
 			{
-				"height": 64.0
+				"height": 50.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -174,11 +196,11 @@
 				],
 				"width": 0.0
 			},
-			"show_minimap": true,
+			"show_minimap": false,
 			"show_open_files": true,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 396.0,
+			"side_bar_width": 227.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
@@ -213,7 +235,7 @@
 					"file": "/home/jieggii/.i3/config",
 					"settings":
 					{
-						"buffer_size": 16119,
+						"buffer_size": 16112,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
@@ -231,6 +253,14 @@
 				"selected_items":
 				[
 					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
+						"ini",
+						"Set Syntax: INI"
+					],
+					[
 						"install",
 						"Package Control: Install Package"
 					],
@@ -245,10 +275,6 @@
 					[
 						"install p",
 						"Package Control: Install Package"
-					],
-					[
-						"instal",
-						"Install Package Control"
 					]
 				],
 				"width": 0.0
@@ -271,12 +297,11 @@
 			},
 			"expanded_folders":
 			[
-				"/home/jieggii/dotfiles",
-				"/home/jieggii/dotfiles/config",
-				"/home/jieggii/dotfiles/config/termite"
+				"/home/jieggii/dotfiles"
 			],
 			"file_history":
 			[
+				"/home/jieggii/.config/polybar/config",
 				"/home/jieggii/dotfiles/update.sh",
 				"/home/jieggii/.zshrc",
 				"/home/jieggii/dotfiles/config/neofetch/config.conf",
@@ -287,7 +312,6 @@
 				"/home/jieggii/.config/termite/config",
 				"/home/jieggii/.config/compton.conf",
 				"/home/jieggii/.config/termite/config.backup",
-				"/home/jieggii/.config/polybar/config",
 				"/home/jieggii/.config/config",
 				"/home/jieggii/dotfiles/.i3/config"
 			],
@@ -307,6 +331,17 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"bar",
+					"lock",
+					"blur",
+					"blurlock",
+					"memory",
+					"logo",
+					"module",
+					"pulsea",
+					"%name%",
+					"margin",
+					"bottob",
 					"green",
 					"con",
 					"conky",
@@ -351,15 +386,15 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 16119,
+								"buffer_size": 16112,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										10924,
-										10924
+										12782,
+										12788
 									]
 								],
 								"settings":
@@ -367,7 +402,7 @@
 									"syntax": "Packages/i3 wm/Syntax/i3wm_config.tmLanguage"
 								},
 								"translation.x": 0.0,
-								"translation.y": 5158.0,
+								"translation.y": 5626.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
@@ -378,7 +413,7 @@
 			],
 			"incremental_find":
 			{
-				"height": 29.0
+				"height": 27.0
 			},
 			"input":
 			{
@@ -412,11 +447,11 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,5,5,955,1051,1920,1080",
+			"position": "0,0,0,0,0,0,0,1920,1056,1920,1080",
 			"project": "",
 			"replace":
 			{
-				"height": 54.0
+				"height": 50.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -450,7 +485,7 @@
 			"settings":
 			{
 			},
-			"show_minimap": true,
+			"show_minimap": false,
 			"show_open_files": true,
 			"show_tabs": true,
 			"side_bar_visible": true,

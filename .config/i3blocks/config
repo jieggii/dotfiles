@@ -1,0 +1,37 @@
+separator=true
+separator_block_width=20
+
+
+[weather]
+full_text=...
+command=sleep 5; curl 'wttr.in?format=1'
+interval=3600
+color=#A4C2F4
+
+[cpu]
+label=CPU: 
+command=python ~/.config/i3blocks/scripts/cpu.py
+interval=10
+color=#88c0d0
+
+[ram]
+label=RAM: 
+command=python ~/.config/i3blocks/scripts/ram.py
+interval=10
+color=#81a1c1
+
+[disk]
+command=python ~/.config/i3blocks/scripts/disk.py
+interval=1200
+color=#8fbcbb
+
+[date]
+command=date '+%A, %d.%m %H:%M'
+interval=20
+color=#d8dee9
+
+# AUR package: xkb-switch-git
+#[keymap]
+#label=⌨️ 
+#command=xkb-switch; xkb-switch -W 
+#interval=persist
