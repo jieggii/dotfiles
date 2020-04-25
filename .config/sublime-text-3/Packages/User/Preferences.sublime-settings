@@ -1,9 +1,0 @@
-{
-	"color_scheme": "Packages/Nord/Nord.sublime-color-scheme",
-	"font_size": 14,
-	"ignored_packages":
-	[
-		"Vintage"
-	],
-	"theme": "Dark-Material.sublime-theme",
-}
