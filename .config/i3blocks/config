@@ -25,6 +25,13 @@ command=python ~/.config/i3blocks/scripts/disk.py
 interval=1200
 color=#8fbcbb
 
+[btc]
+label=BTC: 
+full_text=...
+command=sleep 5; python ~/.config/i3blocks/scripts/btc.py
+interval=3600
+color=#d08770
+
 [date]
 command=date '+%A, %d.%m %H:%M'
 interval=20

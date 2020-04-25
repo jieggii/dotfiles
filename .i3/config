@@ -25,6 +25,9 @@ floating_modifier $mod
 # start a terminal
 bindsym $mod+Return exec termite
 
+# create screenshot
+bindsym --release Shift+Print exec scrot -s 'screenshot_%Y%m%d_%H%M%S.png' -e 'mkdir -p ~/Screenshots && mv $f ~/Screenshots && xclip -selection clipboard -t image/png -i ~/Screenshots/`ls -1 -t ~/Screenshots | head -1`' # Area selection
+
 # kill focused window
 bindsym $mod+Shift+q kill
 
