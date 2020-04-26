@@ -4,7 +4,7 @@ separator_block_width=20
 
 [weather]
 full_text=...
-command=sleep 5; curl 'wttr.in?format=1'
+command=sleep 15; curl 'wttr.in?format=1'
 interval=3600
 color=#A4C2F4
 
@@ -28,7 +28,7 @@ color=#8fbcbb
 [btc]
 label=BTC: 
 full_text=...
-command=sleep 5; python ~/.config/i3blocks/scripts/btc.py
+command=sleep 15; python ~/.config/i3blocks/scripts/btc.py
 interval=3600
 color=#d08770
 
