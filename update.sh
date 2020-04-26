@@ -1,4 +1,3 @@
-
 rm -rf .config && mkdir .config && cd .config/
 cp -r ~/.config/rofi .
 cp -r ~/.config/ranger .
