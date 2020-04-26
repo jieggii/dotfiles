@@ -1,4 +1,3 @@
-## Options section
 setopt correct                                                  # Auto correct mistakes
 setopt extendedglob                                             # Extended globbing. Allows using regular expressions with *
 setopt nocaseglob                                               # Case insensitive globbing
@@ -20,8 +19,8 @@ zstyle ':completion:*' cache-path ~/.zsh/cache
 HISTFILE=~/.zhistory
 HISTSIZE=1000
 SAVEHIST=500
-#export EDITOR=/usr/bin/nano
-#export VISUAL=/usr/bin/nano
+export EDITOR=/usr/bin/vim
+export VISUAL=/usr/bin/nano
 WORDCHARS=${WORDCHARS//\/[&.;]}                                 # Don't consider certain characters part of the word
 
 
@@ -56,7 +55,6 @@ bindkey '^[[Z' undo                                             # Shift+tab undo
 alias cp="cp -i"                                                # Confirm before overwriting something
 alias df='df -h'                                                # Human-readable sizes
 alias free='free -m'                                            # Show sizes in MB
-alias gitu='git add . && git commit && git push'
 alias ls='ls --color=auto -FHh'
 alias ipp='curl ipinfo.io/ip'
 alias py='python'
@@ -73,13 +71,12 @@ setopt prompt_subst
  #PROMPT="%(!.%{$fg[red]%}[%n@%m %1~]%{$reset_color%}# .%{$fg[green]%}[%n@%m %1~]%{$reset_color%}$ "
 # Maia prompt
 PROMPT="%B%{$fg[cyan]%}%(4~|%-1~/.../%2~|%~)%u%b >%{$fg[cyan]%}>%B%(?.%{$fg[cyan]%}.%{$fg[red]%})>%{$reset_color%}%b " # Print some system information when the shell is first started
-# Print a greeting message when shell is started
-#echo $USER@$HOST  $(uname -srm) $(lsb_release -rcs)
-pfetch
 ## Prompt on right side:
 #  - shows status of git when in git repository (code adapted from https://techanic.net/2012/12/30/my_git_prompt_for_zsh.html)
 #  - shows exit status of previous command (if previous command finished with an error)
 #  - is invisible, if neither is the case
+
+pfetch # running pfetch
 
 # Modify the colors and symbols in these variables as desired.
 GIT_PROMPT_SYMBOL="%{$fg[blue]%}±"                              # plus/minus     - clean repo
