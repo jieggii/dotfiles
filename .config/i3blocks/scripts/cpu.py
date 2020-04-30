@@ -1,7 +1,7 @@
 import psutil
 
 
-usage = psutil.cpu_percent(interval=0.1)
+usage = psutil.cpu_percent(interval=1)
 temperature = psutil.sensors_temperatures().get("amdgpu")[0].current
 
 
