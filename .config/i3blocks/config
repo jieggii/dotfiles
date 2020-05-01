@@ -25,6 +25,12 @@ command=python ~/.config/i3blocks/scripts/disk.py
 interval=1200
 color=#8fbcbb
 
+[rates]
+full_text=...
+command=sleep 15; python ~/.config/i3blocks/scripts/rates.py
+interval=3600
+color=#85bb65
+
 [btc]
 label=BTC: 
 full_text=...
