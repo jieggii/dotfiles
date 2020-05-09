@@ -4,7 +4,7 @@ separator_block_width=20
 
 [weather]
 full_text=...
-command=sleep 15; curl 'wttr.in?format=1'
+command=sleep 15; curl 'wttr.in/Kostomuksha?format=1'
 interval=3600
 color=#A4C2F4
 
