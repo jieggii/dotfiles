@@ -25,9 +25,6 @@ floating_modifier $mod
 # start a terminal
 bindsym $mod+Return exec termite
 
-# create screenshot
-bindsym --release Shift+Print exec scrot -s 'screenshot_%Y%m%d_%H%M%S.png' -e 'mkdir -p ~/Screenshots && mv $f ~/Screenshots && xclip -selection clipboard -t image/png -i ~/Screenshots/`ls -1 -t ~/Screenshots | head -1`' # Area selection
-
 # kill focused window
 bindsym $mod+Shift+q kill
 
@@ -63,8 +60,8 @@ bindsym $mod+Shift+F3 exec pcmanfm_pkexec
 bindsym $mod+F5 exec terminal -e 'mocp'
 bindsym $mod+Shift+d --release exec "killall dunst; exec notify-send 'restart dunst'"
 bindsym Print exec --no-startup-id i3-scrot
-bindsym $mod+Print --release exec --no-startup-id i3-scrot -w
-bindsym $mod+Shift+Print --release exec --no-startup-id i3-scrot -s
+bindsym Shift+Print --release exec --no-startup-id i3-scrot -w
+bindsym Ctrl+Print --release exec --no-startup-id i3-scrot -s
 bindsym $mod+Shift+h exec xdg-open /usr/share/doc/manjaro/i3_help.pdf
 bindsym $mod+Ctrl+x --release exec --no-startup-id xkill
 
@@ -128,16 +125,16 @@ bindsym $mod+Ctrl+Left workspace prev
 set $ws1 "1: Browser"
 set $ws2 "2: Terminal"
 set $ws3 "3: Editor"
-set $ws4 "4: Social"
-set $ws5 "5: Game"
-set $ws6 "6"
+set $ws4 "4: Socail"
+set $ws5 "5: Steam"
+set $ws6 "6: Game"
 set $ws7 "7"
 set $ws8 "8"
 
 # Open applications on specific workspaces
 assign [class="firefox"] $ws1
 assign [class="discord"] $ws4
-assign [class="Steam"] $ws4
+assign [class="Steam"] $ws5
 assign [class="TelegramDesktop"] $ws4
 
 # switch to workspace
