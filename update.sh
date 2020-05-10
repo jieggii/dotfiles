@@ -9,3 +9,4 @@ cp -r ~/.config/nvim .
 cd ..
 
 cp ~/.zshrc .
+cp -r ~/Wallpapers .
