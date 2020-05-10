@@ -1,1 +1,1 @@
-killall compton; gamemoderun %command% -novid -noforcemaccel -noforcemspd -noforcemparms; compton -b
+killall picom; gamemoderun %command% -novid -noforcemaccel -noforcemspd -noforcemparms; picom -b
