@@ -43,5 +43,6 @@ alias py='python'
 alias зн='python'
 
 alias ipp='curl ipinfo.io/ip'
+alias gitfuckoff='echo ";-; No you cant just push everything via only one command"; git add .; git commit -m "Haha alias goes brrr"; git push'
 
 PF_ASCII="arch" PF_INFO="ascii title os kernel wm shell pkgs palette" PF_COL3=6 pfetch
