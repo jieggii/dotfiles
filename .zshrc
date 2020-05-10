@@ -58,8 +58,10 @@ alias free='free -m'                                            # Show sizes in 
 alias ls='ls --color=auto -FHh'
 alias ipp='curl ipinfo.io/ip'
 alias py='python'
+
 alias vim='nvim'
 alias v='nvim'
+alias nv='nvim'
 
 # Theming section  
 autoload -U compinit colors zcalc
