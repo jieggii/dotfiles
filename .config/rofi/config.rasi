@@ -1,8 +1,5 @@
 configuration {
-    modi: "window,drun,ssh,combi";
-    theme: "~/.config/rofi/theme.rasi";
-    font: "Hack 13";
-    combi-modi: "window,drun,ssh";
-    show-icons: true;
-    lines: 5;
+	theme: "~/.config/rofi/gruvbox-dark.rasi";
+	font: "hack 15";
+	lines: 3;
 }

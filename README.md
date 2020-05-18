@@ -1,5 +1,5 @@
-# dotifles
-This repository contains my dotfiles.
-Currently I use `i3-gaps` as window manager and [Nord theme](https://www.nordtheme.com/) as the main theme for my status bar, terminal, IDE, etc.
+# dotfiles
+Home for my awesome dotfiles.
 
-![Preview](https://imgur.com/x7Ua8wO.jpg)
+For this setup I've chosen `bspwm` window manager and gruvbox theme
+![preview](https://imgur.com/fvK3UPm.jpg)

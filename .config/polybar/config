@@ -1,0 +1,108 @@
+[colors]
+background = #282828 
+background-alt = #444
+foreground = #dfdfdf
+foreground-alt = #555
+primary = #ffb52a
+secondary = #e60053
+alert = #bd2c40
+
+[bar/mybar]
+wm-restack = bspwm
+height = 30
+width = 100%
+bottom = true
+padding-left = 0
+padding-right = 0
+module-margin = 1
+
+background = ${colors.background}
+
+font-0 = Source Code Pro:size=14;2
+;font-0 = Fira Code Medium:size=14;2
+font-1 = FontAwesome5Free:style=Solid:size=13;4
+font-2 = FontAwesome5Free:style=Regular:size=13;20
+
+modules-center = date
+modules-left = bspwm
+modules-right = disk ram cpu temperature xkeyboard
+
+tray-position = right
+tray-padding = 1
+
+cursor-click = pointer
+
+[module/date]
+type = internal/date
+date = %A, %d.%m %H:%M
+
+[module/disk]
+type = internal/fs
+interval = 60
+mount-0 = /
+label-mounted =  %used%
+
+[module/cpu]
+type = internal/cpu
+interval = 5
+format-prefix = " "
+label = %percentage%%
+
+[module/temperature]
+type = internal/temperature
+interval = 5
+thermal-zone = 0
+format-prefix = " "
+hwmon-path = /sys/devices/pci0000:00/0000:00:08.1/0000:06:00.0/hwmon/hwmon2/temp1_input
+base-temperature = 20
+warn-temperature = 70
+
+[module/ram]
+type = internal/memory
+interval = 5
+format-prefix = ""
+label = %percentage_used:3%%
+
+[module/xkeyboard]
+type = internal/xkeyboard
+blacklist-0 = num lock
+
+format-prefix = " "
+label-layout = %layout%
+label-layout-underline = ${colors.secondary}
+label-indicator-padding = 1
+label-indicator-background = ${colors.secondary}
+label-indicator-underline = ${colors.secondary}
+
+[module/bspwm]
+type = internal/bspwm
+
+ws-icon-0 = 1;1: Firefox
+ws-icon-1 = 2;2: Terminal
+ws-icon-2 = 3;3: Editor
+ws-icon-3 = 4;4: Chat
+ws-icon-4 = 5;5: Discord
+ws-icon-5 = 6;6: Steam
+ws-icon-6 = 7;7: Game
+ws-icon-7 = 8;8: Dump
+ws-icon-8 = 9;9: Dump
+ws-icon-9 = 10;10: Dump
+
+label-focused = %icon%
+label-focused-background = ${colors.background-alt}
+label-focused-underline= ${colors.primary}
+
+label-focused-padding = 1
+
+label-occupied = %icon%
+label-occupied-padding = 1
+
+label-urgent = %icon%
+label-urgent-background = ${colors.alert}
+label-urgent-padding = 1
+
+label-empty = %index%
+label-empty-foreground = ${colors.foreground-alt}
+label-empty-padding = 1
+
+; vim:ft=dosini
