@@ -19,13 +19,12 @@ module-margin = 1
 background = ${colors.background}
 
 font-0 = Source Code Pro:size=14;2
-;font-0 = Fira Code Medium:size=14;2
 font-1 = FontAwesome5Free:style=Solid:size=13;4
 font-2 = FontAwesome5Free:style=Regular:size=13;20
 
-modules-center = date
+modules-center = dat
 modules-left = bspwm
-modules-right = disk ram cpu temperature xkeyboard
+modules-right = weather disk ram cpu temperature xkeyboard
 
 tray-position = right
 tray-padding = 1
@@ -35,6 +34,14 @@ cursor-click = pointer
 [module/date]
 type = internal/date
 date = %A, %d.%m %H:%M
+
+[module/weather]
+type = custom/script
+exec = curl "wttr.in?format=1"
+exec-if = ping 8.8.8.8 -c 1
+tail = true
+interval = 3600
+format-prefix = ""
 
 [module/disk]
 type = internal/fs
