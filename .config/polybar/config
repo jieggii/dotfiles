@@ -22,7 +22,7 @@ font-0 = Source Code Pro:size=14;2
 font-1 = FontAwesome5Free:style=Solid:size=13;4
 font-2 = FontAwesome5Free:style=Regular:size=13;20
 
-modules-center = dat
+modules-center = date
 modules-left = bspwm
 modules-right = weather disk ram cpu temperature xkeyboard
 
@@ -37,11 +37,11 @@ date = %A, %d.%m %H:%M
 
 [module/weather]
 type = custom/script
-exec = curl "wttr.in?format=1"
+exec = curl "http://wttr.in/?format=%C,%20%t"
 exec-if = ping 8.8.8.8 -c 1
 tail = true
 interval = 3600
-format-prefix = ""
+format-prefix = " "
 
 [module/disk]
 type = internal/fs

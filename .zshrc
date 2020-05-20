@@ -34,7 +34,12 @@ ZSH_THEME="agnoster"
 # Standard plugins can be found in ~/.oh-my-zsh/plugins/*
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(
+	git
+	zsh-completions
+	history-substring-search
+	zsh-syntax-highlighting
+)
 
 export ZSH="/home/jieggii/.oh-my-zsh"
 export EDITOR="/usr/bin/nvim"
@@ -55,3 +60,4 @@ source $ZSH/oh-my-zsh.sh
 
 # todo: pfetch settings
 pfetch
+source /home/jieggii/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
