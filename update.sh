@@ -5,6 +5,7 @@ cd .config/
 	cp -r ~/.config/sxhkd .
 	cp -r ~/.config/rofi .
 	cp -r ~/.config/termite .
+	cp -r ~/.config/bspwm .
 cd ..
 
 rm -rf Wallpapers && mkdir Wallpapers
