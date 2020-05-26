@@ -60,4 +60,4 @@ source $ZSH/oh-my-zsh.sh
 
 # todo: pfetch settings
 pfetch
-source /home/jieggii/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# source /home/jieggii/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
