@@ -1,5 +1,7 @@
 [options]
 font = Source Code Pro 17
+# Jetbrains Mono 17
+# Source Code Pro 17
 
 [colors]
 # hard contrast: background = #1d2021
