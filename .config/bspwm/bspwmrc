@@ -34,7 +34,7 @@ bspc rule -a Pcmanfm state=floating rectangle=800x600
 bspc rule -a CounterStrike desktop=^7
 bspc rule -a Pavucontrol state=floating rectangle=800x600
 bspc rule -a Nitrogen state=floating rectangle=400x300
-bspc rule -a jetbrains-pycharm desktop=^3
-bspc rule -a jetbrains-clion desktop=^3
-bspc rule -a jetbrains-webstorm desktop=^3
+bspc rule -a jetbrains-pycharm desktop=^3 follow=no
+bspc rule -a jetbrains-clion desktop=^3 follow=no
+bspc rule -a jetbrains-webstorm desktop=^3 follow=no
 bspc rule -a ark state=floating rectangle=800x600
