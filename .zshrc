@@ -1,7 +1,8 @@
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:$PATH:~/.local/bin/
 
-ZSH_THEME="agnoster"
+ZSH_THEME="sunrise"
+# ZSH_THEME_RANDOM_BLACKLIST=(fox amuse dogenpunk apple smt skaro)
 # ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
 
 # Uncomment the following line to use hyphen-insensitive completion.
