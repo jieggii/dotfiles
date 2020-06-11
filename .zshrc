@@ -60,4 +60,4 @@ alias gitfuckoff="git add .; git commit; git push"
 source $ZSH/oh-my-zsh.sh
 export PF_INFO="ascii title os kernel uptime shell editor palette"
 pfetch
-curl -s "https://api.urbandictionary.com/v0/random" | jq -r ".list[0] | .word, .definition, .example" | awk '{if(NR==1) print $0; else if (NR==2) print "Defenition: " $0; else if (NR==3) print "Example: " $0}'
+# curl -s "https://api.urbandictionary.com/v0/random" | jq -r ".list[0] | .word, .definition, .example" | awk '{if(NR==1) print $0; else if (NR==2) print "Defenition: " $0; else if (NR==3) print "Example: " $0}'
