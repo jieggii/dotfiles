@@ -1,10 +1,10 @@
 [colors]
 background = #282828 
-background-alt = #444
+background-alt = #504945
 foreground = #dfdfdf
-foreground-alt = #555
-primary = #ffb52a
-secondary = #e60053
+foreground-alt = #504945 
+primary = #504945
+secondary =#D65D0E 
 alert = #bd2c40
 
 [bar/mybar]

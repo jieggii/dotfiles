@@ -1,9 +1,9 @@
 # screenshots
 Print
-	maim ~/Screenshots/$(date +%s).png -u
+	maim -u -m 10 ~/Screenshots/$(date +%s).png
 
 control + Print
-	maim ~/Screenshots/$(date +%s).png --select -u
+	maim --select -u -m 10 ~/Screenshots/$(date +%s).png
 
 # laucnhing something:
 # termite
