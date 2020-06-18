@@ -84,7 +84,7 @@ label-indicator-underline = ${colors.secondary}
 [module/bspwm]
 type = internal/bspwm
 
-ws-icon-0 = 1;1: Firefox
+ws-icon-0 = 1;1: Browser
 ws-icon-1 = 2;2: Terminal
 ws-icon-2 = 3;3: Editor
 ws-icon-3 = 4;4: Chat
