@@ -8,11 +8,6 @@ cd .config/
 	cp -r ~/.config/bspwm .
 cd ..
 
-rm -rf Wallpapers && mkdir Wallpapers
-cd Wallpapers/
-	cp ~/Wallpapers/* .
-cd ..
-
 cp ~/.zshrc .
 cp ~/.zprofile .
 cp ~/.xinitrc .
