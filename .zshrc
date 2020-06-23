@@ -55,7 +55,6 @@ alias py="python"
 alias зн="python"
 
 alias ipp="curl ipinfo.io/ip"
-alias gitfuckoff="git add .; git commit; git push"
 
 source $ZSH/oh-my-zsh.sh
 export PF_INFO="ascii title os kernel uptime shell editor palette"
