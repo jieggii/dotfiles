@@ -6,8 +6,10 @@ cd .config/
 	cp -r ~/.config/rofi .
 	cp -r ~/.config/termite .
 	cp -r ~/.config/bspwm .
-	cp -r ~/.config/nvim .
+	mkdir nvim
 cd ..
+
+cp -r ~/.config/nvim/init.vim .config/nvim/
 
 cp ~/.zshrc .
 cp ~/.zprofile .
