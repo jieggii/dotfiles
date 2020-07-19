@@ -1,5 +1,0 @@
-configuration {
-	theme: "~/.config/rofi/gruvbox-dark-hard.rasi";
-	font: "hack 15";
-	lines: 3;
-}

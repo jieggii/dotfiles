@@ -1,0 +1,2 @@
+#!/bin/sh
+feh --no-fehbg --bg-center '/home/jieggii/Wallpapers/fox-girl.png' 

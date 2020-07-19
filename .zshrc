@@ -1,7 +1,14 @@
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:$PATH:~/.local/bin/
 
-ZSH_THEME="sunrise"
+ZSH_THEME="powerlevel10k/powerlevel10k"
 # ZSH_THEME_RANDOM_BLACKLIST=(fox amuse dogenpunk apple smt skaro)
 # ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
 
@@ -9,17 +16,11 @@ ZSH_THEME="sunrise"
 # Case-sensitive completion must be off. _ and - will be interchangeable.
 # HYPHEN_INSENSITIVE="true"
 
-# Uncomment the following line to disable bi-weekly auto-update checks.
-# DISABLE_AUTO_UPDATE="true"
-
 # Uncomment the following line to automatically update without prompting.
 # DISABLE_UPDATE_PROMPT="true"
 
 # Uncomment the following line if pasting URLs and other text is messed up.
 # DISABLE_MAGIC_FUNCTIONS=true
-
-# Uncomment the following line to disable auto-setting terminal title.
-# DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
 # ENABLE_CORRECTION="true"
@@ -48,17 +49,13 @@ export VISUAL="/usr/bin/nvim"
 export TERM="termite"
 export _JAVA_AWT_WM_NONREPARENTING=1
 
-alias vim="nvim"
 alias nv="nvim"
-
-alias py="python"
-alias зн="python"
-
-alias ipp="curl ipinfo.io/ip"
+alias py="poetry run python"
 
 source $ZSH/oh-my-zsh.sh
 export PF_INFO="ascii title os kernel uptime shell editor palette"
-pfetch
-# curl -s "https://api.urbandictionary.com/v0/random" | jq -r ".list[0] | .word, .definition, .example" | awk '{if(NR==1) print $0; else if (NR==2) print "Defenition: " $0; else if (NR==3) print "Example: " $0}'
 
 source /home/jieggii/.config/broot/launcher/bash/br
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

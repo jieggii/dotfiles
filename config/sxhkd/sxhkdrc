@@ -1,34 +1,35 @@
-# screenshots
+# Screenshotting
 Print
-	maim -u -m 10 ~/Screenshots/$(date +%s).png
+	maim -u -m 10 | xclip -selection clipboard -t image/png
 
 control + Print
-	maim --select -u -m 10 ~/Screenshots/$(date +%s).png
+	maim --select -u -m 10 | xclip -selection clipboard -t image/png
 
-# laucnhing something:
-# termite
+shift + Print
+	maim -u -m 10 ~/Screenshots/$(date "+%d.%m-at-%H:%M:%S").png
+
+control + shift + Print
+	maim --select -u -m 10 ~/Screenshots/$(date "+%d.%m-at-%H:%M:%S").png
+
+
+# Launching programs
 super + Return
 	termite
 
-# rofi
 super + d
 	rofi -show run
 
 
-# restarting something:
-# restarting picom
+# Restarting programs:
 super + alt + c
 	killall picom; (sleep 1; picom -b) &
 
-# restarting sxhkd
 super + alt + h
-	killall sxhkd; sxhkd
+	killall sxhkd; (sleep 1; sxhkd) &
 
-# restarting bspwm
 super + alt + r
 	bspc wm -r
 
-# restarting polybar
 super + alt + b
 	~/.config/polybar/launch.sh
 

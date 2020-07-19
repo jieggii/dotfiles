@@ -1,18 +1,15 @@
-rm -rf .config && mkdir .config
-cd .config/
-	cp -r ~/.config/polybar .
-	cp -r ~/.config/picom .
-	cp -r ~/.config/sxhkd .
-	cp -r ~/.config/rofi .
-	cp -r ~/.config/termite .
-	cp -r ~/.config/bspwm .
-	mkdir nvim
-cd ..
-
-cp -r ~/.config/nvim/init.vim .config/nvim/
+rm -rf config && mkdir config
+cp -r ~/.config/polybar config/
+cp -r ~/.config/picom config/
+cp -r ~/.config/sxhkd config/
+cp -r ~/.config/rofi config/
+cp -r ~/.config/termite config/
+cp -r ~/.config/bspwm config/
+cp -r ~/.config/nvim config/
+cp -r ~/.config/redshift config/
 
 cp ~/.zshrc .
 cp ~/.zprofile .
 cp ~/.xinitrc .
-
-
+cp ~/.p10k.zsh .
+cp ~/.fehbg .

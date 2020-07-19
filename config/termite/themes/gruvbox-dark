@@ -1,6 +1,3 @@
-[options]
-font = Source Code Pro 17
-
 [colors]
 # hard contrast: background = #1d2021
 background = #282828
