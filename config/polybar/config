@@ -24,7 +24,7 @@ font-2 = FontAwesome5Free:style=Regular:size=13;20
 
 modules-center = date
 modules-left = bspwm
-modules-right = weather disk ram cpu temperature xkeyboard
+modules-right = disk ram cpu temperature xkeyboard
 
 tray-position = right
 tray-padding = 1
