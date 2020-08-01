@@ -1,2 +1,2 @@
 #!/bin/sh
-feh --no-fehbg --bg-center '/home/jieggii/Wallpapers/fox-girl.png' 
+feh --no-fehbg --bg-scale '/home/jieggii/Wallpapers/girls-cleaning.png' 

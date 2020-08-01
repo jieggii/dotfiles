@@ -51,9 +51,9 @@ export _JAVA_AWT_WM_NONREPARENTING=1
 
 alias nv="nvim"
 alias py="poetry run python"
+alias update-readme='git add README.md; git commit -m "Update README.md"; git push origin master'
 
 source $ZSH/oh-my-zsh.sh
-export PF_INFO="ascii title os kernel uptime shell editor palette"
 
 source /home/jieggii/.config/broot/launcher/bash/br
 
