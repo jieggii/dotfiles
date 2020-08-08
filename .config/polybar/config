@@ -11,14 +11,15 @@ alert = #bd2c40
 wm-restack = bspwm
 height = 30
 width = 100%
-bottom = true
+;bottom = true
 padding-left = 0
 padding-right = 0
 module-margin = 1
 
 background = ${colors.background}
 
-font-0 = Source Code Pro:size=14;2
+;font-0 = Source Code Pro:size=14;2
+font-0 = JetBrains Mono:size=14;2
 font-1 = FontAwesome5Free:style=Solid:size=13;4
 font-2 = FontAwesome5Free:style=Regular:size=13;20
 
@@ -91,9 +92,9 @@ ws-icon-3 = 4;4: Chat
 ws-icon-4 = 5;5: Discord
 ws-icon-5 = 6;6: Steam
 ws-icon-6 = 7;7: Game
-ws-icon-7 = 8;8: Dump
-ws-icon-8 = 9;9: Dump
-ws-icon-9 = 10;10: Dump
+ws-icon-7 = 8;8
+ws-icon-8 = 9;9
+ws-icon-9 = 10;10
 
 label-focused = %icon%
 label-focused-background = ${colors.background-alt}
