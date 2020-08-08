@@ -12,4 +12,3 @@ cp ~/.zshrc .
 cp ~/.zprofile .
 cp ~/.xinitrc .
 cp ~/.p10k.zsh .
-cp ~/.fehbg .
