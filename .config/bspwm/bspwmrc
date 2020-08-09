@@ -4,7 +4,7 @@ killall picom; (sleep 1; picom -b) &
 
 wmname LG3D
 
-bspc monitor -d 1 2 3 4 5 6 7 8 9 10
+bspc monitor -d Browser Terminal Editor Chat Voice Steam Game Empty1 Empty2 Empty3
 
 bspc config border_width          1
 bspc config window_gap            12
