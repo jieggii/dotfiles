@@ -34,7 +34,7 @@ cursor-click = pointer
 [module/date]
 interval = 5
 type = internal/date
-date = %A, %m.%d
+date = %A, %d.%m
 date-alt = %B the%e'th
 time = %H:%M
 time-alt = %H:%M
