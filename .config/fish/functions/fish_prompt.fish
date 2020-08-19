@@ -1,1 +1,1 @@
-/home/jieggii/.local/share/omf/themes/coffeeandcode/fish_prompt.fish
+/home/jieggii/.local/share/omf/themes/shellder/fish_prompt.fish
