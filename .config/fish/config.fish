@@ -13,6 +13,8 @@ alias termbin="nc termbin.com 9999"
 alias cp="cp -i"
 alias df="df -h"
 
+alias wwwrepo="firefox (git remote get-url origin)"
+
 # exa
 alias ls="exa --group-directories-first"
 alias la="exa -a --group-directories-first"
