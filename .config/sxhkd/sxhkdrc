@@ -33,6 +33,8 @@ super + alt + r
 super + alt + b
 	~/.config/polybar/launch.sh
 
+super + alt + s
+	killall redshift; (sleep 1; redshift-gtk) &
 
 # bspwm hotkeys:
 # quit
