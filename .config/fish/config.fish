@@ -1,3 +1,8 @@
+# Environment vars
+set EDITOR /bin/nvim
+set VISUAL /bin/nvim
+set PAGER /bin/less
+
 # Theme settings
 set theme_color_scheme gruvbox
 
