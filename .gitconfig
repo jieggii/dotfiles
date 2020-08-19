@@ -3,3 +3,5 @@
 [user]
 	email = jieggii.contact@gmail.com
 	name = jieggii
+[core]
+	editor = /bin/nvim
