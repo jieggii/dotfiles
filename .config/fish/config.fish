@@ -10,6 +10,15 @@ set theme_color_scheme gruvbox
 alias nv="nvim"
 alias bat="bat -p"
 alias termbin="nc termbin.com 9999"
+alias cp="cp -i"
+alias df="df -h"
+
+# exa
+alias ls="exa --group-directories-first"
+alias la="exa -a --group-directories-first"
+alias ll="exa -l --group-directories-first"
+alias tree="exa -aT --group-directories-first"
+alias l.="exa -a | egrep '^\.'"
 
 # Start X at login
 if status is-login
