@@ -8,10 +8,13 @@ set theme_color_scheme gruvbox
 
 # Aliases
 alias nv="nvim"
-alias bat="bat -p"
+alias bat="bat --plain --number"
+alias py="poetry run python"
 alias termbin="nc termbin.com 9999"
 alias cp="cp -i"
 alias df="df -h"
+alias du="du -h"
+alias c="clear"
 
 alias wwwrepo="firefox (git remote get-url origin)"
 
