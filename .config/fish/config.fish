@@ -19,11 +19,11 @@ alias c="clear"
 alias wwwrepo="firefox (git remote get-url origin)"
 
 # exa
-alias ls="exa --group-directories-first"
-alias la="exa -a --group-directories-first"
-alias ll="exa -l --group-directories-first"
-alias tree="exa -aT --group-directories-first"
-alias l.="exa -a | egrep '^\.'"
+alias ls="exa --color=auto --group-directories-first"
+alias la="exa --color=auto -a --group-directories-first"
+alias ll="exa --color=auto -l --group-directories-first"
+alias tree="exa --color=auto -aT --group-directories-first"
+alias l.="exa --color=auto -a | egrep '^\.'"
 
 # Start X at login
 if status is-login
