@@ -1,4 +1,5 @@
 # Screenshotting
+# TODO: migrate to fish
 Print
 	maim -u -m 10 | xclip -selection clipboard -t image/png
 
@@ -6,10 +7,10 @@ control + Print
 	maim --select -u -m 10 | xclip -selection clipboard -t image/png
 
 shift + Print
-	maim -u -m 10 ~/Screenshots/$(date "+%d.%m-at-%H:%M:%S").png
+	echo "maim -u -m 10 ~/Screenshots/$(date '+%d.%m-at-%H:%M:%S').png" | bash
 
 control + shift + Print
-	maim --select -u -m 10 ~/Screenshots/$(date "+%d.%m-at-%H:%M:%S").png
+	echo "maim --select -u -m 10 ~/Screenshots/$(date "+%d.%m-at-%H:%M:%S").png" | bash
 
 
 # Launching programs
@@ -22,10 +23,10 @@ super + d
 
 # Restarting programs:
 super + alt + c
-	killall picom; (sleep 1; picom -b) &
+	echo "killall picom; (sleep 1; picom -b) &" | bash
 
 super + alt + h
-	killall sxhkd; (sleep 1; sxhkd) &
+	echo "killall sxhkd; (sleep 1; sxhkd) &" | bash
 
 super + alt + r
 	bspc wm -r
