@@ -6,6 +6,10 @@ set XDG_CONFIG_HOME $HOME/.config
 
 # Theme settings
 set theme_color_scheme gruvbox
+set theme_display_date no
+
+function fish_greeting
+end
 
 # Aliases
 alias nv=nvim
