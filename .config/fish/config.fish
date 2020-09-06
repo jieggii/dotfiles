@@ -2,23 +2,23 @@
 set EDITOR /bin/nvim
 set VISUAL /bin/nvim
 set PAGER /bin/less
+set XDG_CONFIG_HOME $HOME/.config
 
 # Theme settings
 set theme_color_scheme gruvbox
 
 # Aliases
-alias nv="nvim"
+alias nv=nvim
 alias bat="bat --plain --number"
 alias py="poetry run python"
 alias termbin="nc termbin.com 9999"
+alias pacman-unlock="sudo rm /var/lib/pacman/db.lck"
 alias cp="cp -i"
 alias df="df -h"
 alias du="du -h"
-alias c="clear"
+alias open-repo="firefox (git remote get-url origin)"
 
-alias wwwrepo="firefox (git remote get-url origin)"
-
-# exa
+# ls -> exa (https://github.com/ogham/exa)
 alias ls="exa --color=auto --group-directories-first"
 alias la="exa --color=auto -a --group-directories-first"
 alias ll="exa --color=auto -l --group-directories-first"
