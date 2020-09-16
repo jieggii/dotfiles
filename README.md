@@ -11,3 +11,4 @@ Home for my awesome dotfiles
 * termite as terminal emulator
 * gruvbox as main color scheme
 * feh as wallpaper manager
+* fish as shell
