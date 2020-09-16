@@ -7,6 +7,7 @@ Home for my awesome dotfiles
 
 ## Setup
 * bspwm as window manager
+* picom as compositor 
 * polybar as bar
 * termite as terminal emulator
 * gruvbox as main color scheme
