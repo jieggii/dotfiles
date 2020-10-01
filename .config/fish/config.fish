@@ -19,7 +19,7 @@ alias termbin="nc termbin.com 9999"
 alias pacman-unlock="sudo rm /var/lib/pacman/db.lck"
 alias cp="cp -i"
 alias df="df -h"
-alias du="du -h"
+alias du="du -sh"
 alias open-repo="firefox (git remote get-url origin)"
 
 # ls -> exa (https://github.com/ogham/exa)

@@ -48,13 +48,13 @@ label = %date% %time%
 
 [module/cpu]
 type = internal/cpu
-interval = 5
+interval = 2
 format-prefix = " "
 label = %percentage%%
 
 [module/temperature]
 type = internal/temperature
-interval = 5
+interval = 2
 thermal-zone = 0
 format-prefix = " "
 hwmon-path = /sys/devices/pci0000:00/0000:00:08.1/0000:06:00.0/hwmon/hwmon2/temp1_input
@@ -63,7 +63,7 @@ warn-temperature = 70
 
 [module/ram]
 type = internal/memory
-interval = 5
+interval = 2
 format-prefix = ""
 label = %percentage_used:3%%
 
