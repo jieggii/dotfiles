@@ -5,3 +5,5 @@
 	name = jieggii
 [core]
 	editor = /bin/nvim
+[pull]
+	rebase = false
