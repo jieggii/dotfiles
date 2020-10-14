@@ -26,7 +26,7 @@ alias open-repo="firefox (git remote get-url origin)"
 alias ls="exa --color=auto --group-directories-first"
 alias la="exa --color=auto -a --group-directories-first"
 alias ll="exa --color=auto -l --group-directories-first"
-alias tree="exa --color=auto -aT --group-directories-first"
+alias tree="exa --color=auto -T --group-directories-first"
 alias l.="exa --color=auto -a | egrep '^\.'"
 
 # Start X at login
