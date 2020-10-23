@@ -1,16 +1,15 @@
 # Screenshotting
-# TODO: migrate to fish
 Print
-	maim -u -m 10 | xclip -selection clipboard -t image/png
+	maim -u -m 10 | xclip -selection clipboard -t image/jpg
 
 control + Print
-	maim --select -u -m 10 | xclip -selection clipboard -t image/png
+	maim --select -u -m 10 | xclip -selection clipboard -t image/jpg
 
 shift + Print
-	echo "maim -u -m 10 ~/Screenshots/$(date '+%d.%m-at-%H:%M:%S').png" | bash
+	maim -u -m 10 ~/screenshots/(date "+%d.%m-at-%H:%M:%S").jpg
 
 control + shift + Print
-	echo "maim --select -u -m 10 ~/Screenshots/$(date "+%d.%m-at-%H:%M:%S").png" | bash
+	maim --select -u -m 10 ~/screenshots/(date "+%d.%m-at-%H:%M:%S").jpg
 
 
 # Launching programs
