@@ -11,6 +11,7 @@ cp -r ~/.config/nvim .config/
 cp -r ~/.config/redshift .config/
 cp -r ~/.config/omf .config/
 cp -r ~/.config/fish .config/
+cp -r ~/.config/user-dirs.dirs .config/
 
 cp ~/.xinitrc .
 cp ~/.gitconfig .
