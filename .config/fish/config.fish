@@ -21,6 +21,7 @@ alias cp="cp -i"
 alias df="df -h"
 alias du="du -sh"
 alias open-repo="firefox (git remote get-url origin)"
+alias c="clear"
 
 # ls -> exa (https://github.com/ogham/exa)
 alias ls="exa --color=auto --group-directories-first"
