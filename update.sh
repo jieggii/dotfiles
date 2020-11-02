@@ -12,6 +12,6 @@ cp -r ~/.config/redshift .config/
 cp -r ~/.config/omf .config/
 cp -r ~/.config/fish .config/
 cp -r ~/.config/user-dirs.dirs .config/
+cp -r ~/.config/git .config/
 
 cp ~/.xinitrc .
-cp ~/.gitconfig .
