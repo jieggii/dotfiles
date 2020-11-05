@@ -10,4 +10,4 @@
 [alias]
 	unstage = reset HEAD --
 	log-pretty = log --pretty=format:'%H \"%s\" by %an, %ar'
-	last = log-pretty -1
+	log-last = log-pretty -1
