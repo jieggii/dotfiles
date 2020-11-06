@@ -4,6 +4,10 @@ set VISUAL /bin/nvim
 set PAGER /bin/less
 set XDG_CONFIG_HOME $HOME/.config
 
+# Golang
+set GOROOT $HOME/.go
+set PATH $PATH:$GOROOT/bin
+
 # Theme settings
 set theme_color_scheme gruvbox
 set theme_display_date no
