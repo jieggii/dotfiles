@@ -11,3 +11,4 @@
 	unstage = reset HEAD --
 	log-pretty = log --pretty=format:'%H \"%s\" by %an, %ar'
 	log-last = log-pretty -1
+	firefox = !firefox $(git remote get-url origin)
