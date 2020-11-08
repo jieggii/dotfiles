@@ -1,14 +1,11 @@
-# Environment vars
-set EDITOR /bin/nvim
-set VISUAL /bin/nvim
-set PAGER /bin/less
-set XDG_CONFIG_HOME $HOME/.config
+set -x EDITOR /bin/nvim
+set -x VISUAL /bin/nvim
+set -x PAGER /bin/less
+set -x XDG_CONFIG_HOME $HOME/.config
 
-# Golang
-set GOROOT $HOME/.golang
-set PATH $PATH:$GOROOT/bin
+set -x GOROOT $HOME/.goroot
+set -x GOPATH $HOME/.gopath
 
-# Theme settings
 set theme_color_scheme gruvbox
 set theme_display_date no
 
@@ -22,6 +19,7 @@ alias py="poetry run python"
 alias termbin="nc termbin.com 9999"
 alias pacman-unlock="sudo rm /var/lib/pacman/db.lck"
 alias cp="cp -i"
+alias mv="mv -i"
 alias df="df -h"
 alias du="du -sh"
 alias c="clear"
