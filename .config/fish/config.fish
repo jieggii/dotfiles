@@ -5,7 +5,7 @@ set PAGER /bin/less
 set XDG_CONFIG_HOME $HOME/.config
 
 # Golang
-set GOROOT $HOME/.go
+set GOROOT $HOME/.golang
 set PATH $PATH:$GOROOT/bin
 
 # Theme settings
