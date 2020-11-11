@@ -15,7 +15,7 @@ end
 # Aliases
 alias nv=nvim
 alias bat="bat --plain --number"
-alias py="poetry run python"
+alias py="poetry run"
 alias termbin="nc termbin.com 9999"
 alias pacman-unlock="sudo rm /var/lib/pacman/db.lck"
 alias cp="cp -i"
