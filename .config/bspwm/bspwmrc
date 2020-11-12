@@ -30,4 +30,4 @@ bspc rule -a jetbrains-webstorm desktop=^3 follow=no
 bspc rule -a jetbrains-goland desktop=^3 follow=no
 # bspc rule -a audacity desktop=^5 follow=no
 bspc rule -a zoom desktop=^6 follow=no
-bspc rule -a "microsoft teams - preview" desktop=^6 follow=no
+bspc rule -a "Microsoft Teams - Preview" desktop=^6
