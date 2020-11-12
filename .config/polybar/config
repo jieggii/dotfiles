@@ -86,11 +86,11 @@ ws-icon-1 = Terminal;
 ws-icon-2 = Editor;
 ws-icon-3 = Chat;
 ws-icon-4 = Voice;
-ws-icon-5 = Steam;
-ws-icon-6 = Game;
-ws-icon-7 = Empty1;
-ws-icon-8 = Empty2;
-ws-icon-9 = Empty3;
+ws-icon-5 = Conference;
+ws-icon-6 = Steam;
+ws-icon-7 = Game;
+ws-icon-8 = Empty1;
+ws-icon-9 = Empty2;
 
 label-focused = %icon%
 label-focused-background = ${colors.background-alt}

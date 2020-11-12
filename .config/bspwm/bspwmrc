@@ -4,7 +4,7 @@ killall picom; (sleep 1; picom -b) &
 
 wmname LG3D
 
-bspc monitor -d Browser Terminal Editor Chat Voice Steam Game Empty1 Empty2 Empty3
+bspc monitor -d Browser Terminal Editor Chat Voice Conference Steam Game Empty1 Empty2
 
 bspc config border_width          2
 bspc config window_gap            20
@@ -18,15 +18,16 @@ bspc config focus_follows_pointer true
 # use `xprop | grep WM_CLASS` command to grab `-a` value
 bspc rule -a firefox desktop=^1 follow=no
 # bspc rule -a Chromium desktop=^1 follow=no
-bspc rule -a Steam desktop=^6 follow=no
+bspc rule -a Steam desktop=^7 follow=no
 bspc rule -a TelegramDesktop desktop=^4 
 bspc rule -a discord desktop=^5 follow=no
-# bspc rule -a Pcmanfm state=floating rectangle=800x600
+bspc rule -a Pcmanfm state=floating rectangle=800x600
 bspc rule -a CounterStrike desktop=^7
 bspc rule -a Pavucontrol state=floating rectangle=800x600
 bspc rule -a jetbrains-pycharm desktop=^3 follow=no
 bspc rule -a jetbrains-clion desktop=^3 follow=no
 bspc rule -a jetbrains-webstorm desktop=^3 follow=no
 bspc rule -a jetbrains-goland desktop=^3 follow=no
-bspc rule -a audacity desktop=^5 follow=no
-bspc rule -a zoom desktop=^3 follow=no
+# bspc rule -a audacity desktop=^5 follow=no
+bspc rule -a zoom desktop=^6 follow=no
+bspc rule -a "microsoft teams - preview" desktop=^6 follow=no
