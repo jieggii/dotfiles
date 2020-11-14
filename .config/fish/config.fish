@@ -2,6 +2,7 @@ set -x EDITOR /bin/nvim
 set -x VISUAL /bin/nvim
 set -x PAGER /bin/less
 set -x XDG_CONFIG_HOME $HOME/.config
+set -x TERM screen-256color
 
 set -x GOROOT $HOME/.goroot
 set -x GOPATH $HOME/.gopath
