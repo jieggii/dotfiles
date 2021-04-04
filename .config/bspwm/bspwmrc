@@ -32,3 +32,4 @@ bspc rule -a jetbrains-goland desktop=^3 follow=no
 bspc rule -a zoom desktop=^6 follow=no
 bspc rule -a "Microsoft Teams - Preview" desktop=^6
 bspc rule -a code-oss desktop=^3 follow=no
+bspc rule -a jetbrains-studio desktop=^3 follow=no
