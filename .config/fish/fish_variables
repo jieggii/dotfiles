@@ -30,4 +30,4 @@ SETUVAR fish_pager_color_completion:normal
 SETUVAR fish_pager_color_description:555\x1eyellow
 SETUVAR fish_pager_color_prefix:cyan
 SETUVAR fish_pager_color_progress:cyan
-SETUVAR fish_user_paths:/home/jieggii/\x2epoetry/bin\x1e/home/jieggii/\x2ecargo/bin/\x1e/home/jieggii/\x2egoroot/bin/\x1e/home/jieggii/\x2egopath/bin/\x1e/home/jieggii/\x2elocal/bin
+SETUVAR fish_user_paths:/home/jieggii/\x2epoetry/bin\x1e/home/jieggii/\x2ecargo/bin/\x1e/home/jieggii/\x2egoroot/bin/\x1e/home/jieggii/\x2egopath/bin/\x1e/home/jieggii/\x2elocal/bin\x1eANDROID_HOME\x3d/home/jieggii/Android/Sdk/\x1e/home/jieggii/Android/Sdk/emulator\x1e/home/jieggii/Android/Sdk/tools/\x1e/home/jieggii/Android/Sdk/tools/bin/\x1e/home/jieggii/Android/Sdk/platform\x2dtools/
