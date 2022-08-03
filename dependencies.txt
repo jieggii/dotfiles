@@ -1,1 +1,10 @@
 i3
+aur/i3exit
+brightnessctl
+xf86-input-synaptics
+network-manager-applet
+refshift
+		python-gobject
+		geoclue
+picom
+polybar
