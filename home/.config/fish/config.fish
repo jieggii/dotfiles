@@ -13,8 +13,7 @@ function fish_greeting
 end
 
 function fish_prompt
-	# pwd
-	echo "% "
+	echo (echo "(")(basename (pwd))(echo ")")%(echo " ") 
 end
 
 # required to disable annoying clock on the right
