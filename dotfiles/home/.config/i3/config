@@ -1,31 +1,33 @@
 # i3 config file (v4)
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
 
+# Colors
+
 # Autostart programs
-exec --no-startup-id redshift-gtk
 exec --no-startup-id nitrogen --restore
-exec --no-startup-id picom
 exec_always --no-startup-id ~/.config/polybar/launch.bash
+
+exec --no-startup-id redshift-gtk
 exec --no-startup-id nm-applet
 
-exec --no-startup-id xautolock -time 10 -locker blurlock
+exec --no-startup-id picom
+
+# exec --no-startup-id xautolock -time 10 -locker i3lock-fancy
+exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock-fancy --nofork
 
 # Program hotkeys
 bindsym $mod+Return exec alacritty
-bindsym $mod+l exec --no-startup-id blurlock
+bindsym $mod+l exec --no-startup-id i3lock-fancy
 bindsym $mod+d exec --no-startup-id dmenu_run -c -l 4 -nb '#282828' -sf '#dfdfdf' -sb 'gray' -nf '#dfdfdf'
 
 set $mod Mod4
 
-# Configure border style <normal|1pixel|pixel xx|none|pixel>
-default_border normal
-default_floating_border normal
+default_border pixel 1
+default_floating_border none
 
 # Hide borders
 hide_edge_borders none
 
-# Font for window titles
-# font pango:JetBrains Mono 12
 font pango:Fira Code Medium 12
 # Use Mouse+$mod to drag floating windows
 floating_modifier $mod
@@ -33,9 +35,9 @@ floating_modifier $mod
 bindsym $mod+q kill
 
 # running scrot
-# bindsym Print exec --no-startup-id i3-scrot
-# bindsym $mod+Print --release exec --no-startup-id i3-scrot -w
-# bindsym $mod+Shift+Print --release exec --no-startup-id i3-scrot -s
+bindsym Print exec --no-startup-id i3-scrot
+bindsym $mod+Print --release exec --no-startup-id i3-scrot -w
+bindsym $mod+Shift+Print --release exec --no-startup-id i3-scrot -s
 
 focus_follows_mouse yes
 
