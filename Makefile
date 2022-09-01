@@ -1,4 +1,4 @@
-all: add push
+all: add
 
 add:
 	dcfg add
