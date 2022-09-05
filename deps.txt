@@ -8,4 +8,4 @@ refshift
 		geoclue
 picom
 polybar
-terminus-font-ttf
+aur/terminus-font-ttf
