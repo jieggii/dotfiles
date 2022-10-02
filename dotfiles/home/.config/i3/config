@@ -23,7 +23,7 @@ bindsym $mod+d exec --no-startup-id dmenu_run -c -l 4 -nb '#282828' -sf '#dfdfdf
 set $mod Mod4
 
 default_border pixel 1
-default_floating_border none
+default_floating_border pixel 1
 
 # Hide borders
 hide_edge_borders none
