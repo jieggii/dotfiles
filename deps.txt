@@ -8,4 +8,6 @@ refshift
 		geoclue
 picom
 polybar
-aur/terminus-font-ttf
+# aur/terminus-font-ttf
+aur/i3-scrot
+		xclip
