@@ -1,5 +1,5 @@
 # Dotfiles for my Huawei Matebook 14 AMD 2021
-I use i3wm and arch linux for this setup
+I use i3wm and arch linux for this setup.
 
 I've bought this laptop without any necessary research about linux support, so there are some issues:
 * I have no sound ([thread about that](https://github.com/thesofproject/linux/issues/3249))
