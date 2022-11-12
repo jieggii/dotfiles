@@ -199,6 +199,7 @@ assign [class="TelegramDesktop"] $ws4
 # assign [class="monero-core"] $ws5
 assign [class="electrum"] $ws5
 
+assign [class="jetbrains-datagrip"] $ws6
 assign [class="mongodb compass"] $ws6
 
 # Window rules
