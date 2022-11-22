@@ -15,6 +15,7 @@ Plug 'cespare/vim-toml'
 Plug 'rust-lang/rust.vim'
 Plug 'aliva/vim-fish'
 Plug 'bfrg/vim-cpp-modern'
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
 " other:
 Plug 'gko/vim-coloresque'
