@@ -9,13 +9,13 @@ set -x XDG_CONFIG_HOME $HOME/.config
 function fish_greeting
 end
 
-function fish_prompt
-	echo (echo "(")(basename (pwd))(echo ")")%(echo " ") 
-end
+#function fish_prompt
+#	echo (echo "(")(basename (pwd))(echo ")")%(echo " ") 
+#end
 
-function fish_right_prompt
-		fish_git_prompt
-end
+#function fish_right_prompt
+#		fish_git_prompt
+#end
 
 alias nv=nvim
 alias bat="bat --plain"
@@ -25,7 +25,6 @@ alias mv="mv -iv"
 alias df="df -h"
 alias du="du -sh"
 alias ipinfo="curl https://ipinfo.io"
-alias swallow="devour"
 
 # https://github.com/ogham/exa
 alias ls="exa --group-directories-first"
