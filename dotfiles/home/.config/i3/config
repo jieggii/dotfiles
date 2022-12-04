@@ -1,26 +1,24 @@
 # i3 config file (v4)
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
 
-# Colors
+set $mod Mod4
 
 # Autostart programs
-exec --no-startup-id nitrogen --restore
 exec_always --no-startup-id ~/.config/polybar/launch.bash
 
+exec --no-startup-id nitrogen --restore
 exec --no-startup-id redshift-gtk
 exec --no-startup-id nm-applet
-
 exec --no-startup-id picom
-
-# exec --no-startup-id xautolock -time 10 -locker i3lock-fancy
-exec --no-startup-id xss-lock --transfer-sleep-lock -- xlock
 
 # Program hotkeys
 bindsym $mod+Return exec alacritty
-bindsym $mod+l exec --no-startup-id xlock
+bindsym $mod+l exec --no-startup-id xset s activate
 bindsym $mod+d exec --no-startup-id dmenu_run -c -l 4 -nb '#282828' -sf '#dfdfdf' -sb 'gray' -nf '#dfdfdf'
 
-set $mod Mod4
+# Display swith hotkeys
+bindsym $mod+j exec --no-startup-id ~/.scripts/display-output/use-laptop.sh && ~/.scripts/display-output/hook.sh
+bindsym $mod+k exec --no-startup-id ~/.scripts/display-output/use-hdmi.sh && ~/.scripts/display-output/hook.sh
 
 default_border pixel 1
 default_floating_border pixel 1
@@ -34,9 +32,9 @@ floating_modifier $mod
 
 bindsym $mod+q kill
 
-# running scrot
+# Hotkeys for screenshots
 bindsym Print --release exec --no-startup-id i3-scrot -dc
-bindsym Ctrl+Print --release exec --no-startup-id i3-scrot -sc 
+bindsym Ctrl+Print --release exec --no-startup-id maim -s | xclip -selection clipboard -t image/png 
 bindsym Shift+Print --release exec --no-startup-id i3-scrot -d
 bindsym Shift+Ctrl+Print --release exec --no-startup-id i3-scrot -s
 
