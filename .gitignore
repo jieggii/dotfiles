@@ -1,4 +1,4 @@
 dotfiles/home/.config/fish/conf.d/
 dotfiles/home/.config/fish/functions/
-dotfiles/home/.config/fish/fish_variables/
+dotfiles/home/.config/fish/fish_variables
 dotfiles/home/.config/fish/completions/
