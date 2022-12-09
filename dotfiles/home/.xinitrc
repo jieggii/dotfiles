@@ -12,7 +12,7 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
 fi
 
 # setup autolock (I use https://github.com/google/xsecurelock)
-xset s 300 5 &
+xset s 600 5 &
 xss-lock -n /usr/lib/xsecurelock/dimmer -l -- xsecurelock &
 
 # configure monitor output
