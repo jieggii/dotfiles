@@ -1,6 +1,5 @@
-# This is an approximate of dependencies
-
-i3
+# This is an approximate list of dependencies
+i3-wm
 aur/i3exit
 brightnessctl
 xf86-input-synaptics
@@ -10,7 +9,5 @@ refshift
 		geoclue
 picom
 polybar
-aur/i3-scrot
-		xclip
 xsecurelock
 maim
