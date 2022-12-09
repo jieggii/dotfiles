@@ -33,10 +33,10 @@ floating_modifier $mod
 bindsym $mod+q kill
 
 # Hotkeys for screenshots
-bindsym Print --release exec --no-startup-id i3-scrot -dc
+bindsym Print --release exec --no-startup-id maim | xclip -selection clipboard -t image/png
 bindsym Ctrl+Print --release exec --no-startup-id maim -s | xclip -selection clipboard -t image/png 
-bindsym Shift+Print --release exec --no-startup-id i3-scrot -d
-bindsym Shift+Ctrl+Print --release exec --no-startup-id i3-scrot -s
+bindsym Shift+Print --release exec --no-startup-id maim ~/pic/screenshots/$(date +%s)-full.png
+bindsym Shift+Ctrl+Print --release exec --no-startup-id maim -s ~/pic/screenshots/$(date +%s)-selection.png
 
 focus_follows_mouse yes
 
