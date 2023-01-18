@@ -13,3 +13,5 @@
 	log-last = log-pretty -1
 	firefox = !firefox $(git remote get-url origin)
 
+[init]
+	defaultBranch = master
