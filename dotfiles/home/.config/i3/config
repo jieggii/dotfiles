@@ -9,7 +9,7 @@ exec_always --no-startup-id ~/.config/polybar/launch.bash
 exec --no-startup-id nitrogen --restore
 exec --no-startup-id redshift-gtk
 exec --no-startup-id nm-applet
-exec --no-startup-id picom
+exec --no-startup-id picom -experimental-backends
 
 # Program hotkeys
 bindsym $mod+Return exec alacritty
