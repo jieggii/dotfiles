@@ -1,0 +1,25 @@
+{
+    "bindings": [
+        {
+            "/home/jieggii": "home"
+        },
+        {
+            "/etc": "etc"
+        }
+    ],
+    "targets": [
+        "/home/jieggii/.xinitrc",
+        "/home/jieggii/.Xresources",
+        "/home/jieggii/.scripts",
+        "/home/jieggii/.config/i3",
+        "/home/jieggii/.config/picom/picom.conf",
+        "/home/jieggii/.config/polybar",
+        "/home/jieggii/.config/dunst/dunstrc",
+        "/home/jieggii/.config/alacritty/alacritty.yml",
+        "/home/jieggii/.config/fish/config.fish",
+        "/home/jieggii/.config/git/config",
+        "/home/jieggii/.config/nvim/init.vim",
+        "/etc/X11/xorg.conf.d/70-synaptics.conf"
+    ],
+    "pins": []
+}
