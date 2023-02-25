@@ -21,5 +21,8 @@
         "/etc/X11/xorg.conf.d/70-synaptics.conf",
         "/home/jieggii/.config/i3/config"
     ],
-    "pins": []
+    "pins": [
+        "deps.txt",
+        "README.md"
+    ]
 }
