@@ -1,6 +1,7 @@
 # This is an approximate list of dependencies
 i3-wm
-aur/i3exit
+xorg
+xorg-xinit
 brightnessctl
 xf86-input-synaptics
 network-manager-applet
@@ -11,3 +12,8 @@ picom
 polybar
 xsecurelock
 maim
+yay/ttf-apple-emoji
+yay/ttf-font-awesome
+ttf-jetbrains-mono
+ttf-fira-code
+nitrogen
