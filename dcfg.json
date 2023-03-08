@@ -20,7 +20,8 @@
         "/home/jieggii/.config/nvim/init.vim",
         "/etc/X11/xorg.conf.d/70-synaptics.conf",
         "/home/jieggii/.config/i3/config",
-        "/home/jieggii/.config/user-dirs.dirs"
+        "/home/jieggii/.config/user-dirs.dirs",
+        "/home/jieggii/.config/redshift/redshift.conf"
     ],
     "pins": [
         "deps.txt",

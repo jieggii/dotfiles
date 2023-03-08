@@ -7,7 +7,7 @@ set $mod Mod4
 exec_always --no-startup-id ~/.config/polybar/launch.bash
 
 exec --no-startup-id nitrogen --restore
-exec --no-startup-id redshift-gtk
+exec --no-startup-id redshift -l $(curl -s "https://location.services.mozilla.com/v1/geolocate?key=geoclue" | jq -r '"\(.location.lat):\(.location.lng)"')
 exec --no-startup-id nm-applet
 exec --no-startup-id picom
 
@@ -86,14 +86,14 @@ bindsym $mod+Ctrl+Left workspace prev
 # to display names or symbols instead of plain workspace numbers you can use
 # something like: set $ws1 1:mail
 #                 set $ws2 2:
-set $ws1 "1:www"
-set $ws2 "2:term"
-set $ws3 "3:code"
-set $ws4 "4:chat"
-set $ws5 "5:(5)"
-set $ws6 "6:(6)"
-set $ws7 "7:(7)"
-set $ws8 "8:(8)"
+set $ws1 "1"
+set $ws2 "2"
+set $ws3 "3"
+set $ws4 "4"
+set $ws5 "5"
+set $ws6 "6"
+set $ws7 "7"
+set $ws8 "8"
 
 # switch to workspace
 bindsym $mod+1 workspace $ws1

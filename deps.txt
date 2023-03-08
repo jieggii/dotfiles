@@ -1,19 +1,26 @@
 # This is an approximate list of dependencies
+# essential:
 i3-wm
 xorg
 xorg-xinit
 brightnessctl
 xf86-input-synaptics
-network-manager-applet
-refshift
-		python-gobject
-		geoclue
 picom
 polybar
 xsecurelock
+	xss-lock
+
+# tools
 maim
+network-manager-applet
+refshift
+	python-gobject
+	geoclue
+nitrogen
+
+#fonts:
 yay/ttf-apple-emoji
 yay/ttf-font-awesome
 ttf-jetbrains-mono
 ttf-fira-code
-nitrogen
+
