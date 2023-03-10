@@ -12,6 +12,7 @@ xsecurelock
 
 # tools
 maim
+xclip
 network-manager-applet
 refshift
 	python-gobject
