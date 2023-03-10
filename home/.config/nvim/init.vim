@@ -21,4 +21,4 @@ Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'gko/vim-coloresque'
 call plug#end()
 
-" colorscheme onedark
+colorscheme nord
