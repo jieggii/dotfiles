@@ -13,6 +13,7 @@ exec --no-startup-id picom
 
 # Program hotkeys
 bindsym $mod+Return exec alacritty
+bindsym $mod+p exec alacritty -e python -q
 bindsym $mod+l exec --no-startup-id xset s activate
 bindsym $mod+d exec --no-startup-id dmenu_run -c -l 4 -nb '#282828' -sf '#dfdfdf' -sb 'gray' -nf '#dfdfdf'
 
@@ -205,5 +206,8 @@ assign [class="mongodb compass"] $ws6
 
 # Window rules
 for_window [class="Nitrogen"] floating enable
-# for_window [urgent=latest] focus
+for_window [class="Nitrogen"] resuze set 800 600
+
+for_window [class="electrum"] floating enable
+for_window [class="electrum"] resize set 800 600
 
