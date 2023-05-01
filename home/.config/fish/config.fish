@@ -27,7 +27,7 @@ alias df="df -h"
 alias du="du -sh"
 alias ipinfo="curl https://ipinfo.io"
 
-alias boot-windows="sudo efibootmgr --bootnext 0001 && reboot"
+alias boot-windows="sudo efibootmgr --bootnext 0001 > /dev/null && reboot"
 
 # https://github.com/ogham/exa
 alias ls="exa --group-directories-first"
