@@ -19,6 +19,10 @@ xss-lock -n /usr/lib/xsecurelock/dimmer -l -- xsecurelock &
 #$HOME/.scripts/display-output/use-laptop.sh &
 
 # set keyboard layouts
-setxkbmap -model pc104 -layout us,ru -option grp:alt_shift_toggle &
+# setxkbmap -model pc104 -layout us,ru -option grp:alt_shift_toggle &
+setxkbmap -model pc104 -layout us,ru -option grp:shift_caps_toggle
+
+# swap left alt and windows key
+setxkbmap -option altwin:swap_alt_win
 
 exec i3
