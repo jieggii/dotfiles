@@ -11,6 +11,9 @@ exec --no-startup-id redshift -l $(curl -s "https://location.services.mozilla.co
 exec --no-startup-id nm-applet
 exec --no-startup-id picom
 
+# set USB mouse acceleration
+exec --no-startup-id xinput --set-prop 13 'libinput Accel Speed' 0.75
+
 # Program hotkeys
 bindsym $mod+Return exec alacritty
 bindsym $mod+p exec alacritty -e python -q

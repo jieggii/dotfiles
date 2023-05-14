@@ -10,6 +10,9 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  unset f
 fi
 
+# set USB mouse acceleration
+# xinput --set-prop 13 'libinput Accel Speed' 0.75
+
 # setup autolock (I use https://github.com/google/xsecurelock)
 xset s 600 5 &
 xss-lock -n /usr/lib/xsecurelock/dimmer -l -- xsecurelock &
@@ -19,7 +22,6 @@ xss-lock -n /usr/lib/xsecurelock/dimmer -l -- xsecurelock &
 #$HOME/.scripts/display-output/use-laptop.sh &
 
 # set keyboard layouts
-# setxkbmap -model pc104 -layout us,ru -option grp:alt_shift_toggle &
 setxkbmap -model pc104 -layout us,ru -option grp:shift_caps_toggle
 
 # swap left alt and windows key
