@@ -1,7 +1,7 @@
 [credential]
 	helper = store
 [user]
-	email = jieggii@pm.me
+	email = jieggii@protonmail.com
 	name = jieggii
 [core]
 	editor = /usr/bin/nvim
