@@ -45,8 +45,8 @@ bindsym Shift+Ctrl+Print --release exec --no-startup-id maim -s ~/pic/screenshot
 focus_follows_mouse yes
 
 # brightness control
-bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +5%
-bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 5%- 
+bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +2%
+bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 2%-
 
 # change focus
 bindsym $mod+Left focus left

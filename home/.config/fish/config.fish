@@ -34,7 +34,7 @@ alias ls="exa --group-directories-first"
 alias la="exa --long --all --group-directories-first"
 alias ll="exa --long --git --group-directories-first"
 alias tree="exa -T --icons -I __pycache__ --group-directories-first"
-alias l.="exa -a -1 | egrep '^\.'"
+alias l.="exa -a -1 | grep -e '^\.'"
 
 # start X11 on login
 if status is-login
