@@ -13,6 +13,9 @@ fi
 # set USB mouse acceleration
 xinput set-prop 9 296 0.35
 
+# set touchpad speed
+xinput set-prop 10 158 1.4 0 0 0 1.4 0 0 0 1
+
 # setup autolock (I use https://github.com/google/xsecurelock)
 xset s 600 5 &
 xss-lock -n /usr/lib/xsecurelock/dimmer -l -- xsecurelock &
