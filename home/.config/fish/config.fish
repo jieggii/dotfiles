@@ -29,12 +29,12 @@ alias ipinfo="curl https://ipinfo.io"
 
 alias boot-windows="sudo efibootmgr --bootnext 0001 > /dev/null && reboot"
 
-# https://github.com/ogham/exa
-alias ls="exa --group-directories-first"
-alias la="exa --long --all --group-directories-first"
-alias ll="exa --long --git --group-directories-first"
-alias tree="exa -T --icons -I __pycache__ --group-directories-first"
-alias l.="exa -a -1 | grep -e '^\.'"
+# https://github.com/eza-community/eza
+alias ls="eza --group-directories-first"
+alias la="eza --long --all --group-directories-first"
+alias ll="eza --long --git --group-directories-first"
+alias tree="eza -T --icons -I __pycache__ --group-directories-first"
+alias l.="eza -a -1 | grep -e '^\.'"
 
 # start X11 on login
 if status is-login
