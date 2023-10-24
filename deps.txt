@@ -10,7 +10,7 @@ polybar
 xsecurelock
 	xss-lock
 
-# tools
+# tools:
 maim
 xclip
 network-manager-applet
@@ -19,7 +19,7 @@ refshift
 	geoclue
 nitrogen
 
-#fonts:
+# fonts:
 yay/ttf-apple-emoji
 yay/ttf-font-awesome
 ttf-jetbrains-mono
