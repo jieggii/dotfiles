@@ -1,0 +1,18 @@
+[font]
+size = 19
+
+[font.bold]
+family = "jetbrains mono"
+style = "Bold"
+
+[font.bold_italic]
+family = "jetbrains mono"
+style = "Bold Italic"
+
+[font.italic]
+family = "jetbrains mono"
+style = "Italic"
+
+[font.normal]
+family = "jetbrains mono"
+style = "Regular"
