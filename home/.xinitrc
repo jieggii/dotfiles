@@ -11,10 +11,10 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
 fi
 
 # set USB mouse acceleration
-xinput set-prop 9 296 0.35
+xinput set-prop 9 296 0.5
 
 # set touchpad speed
-xinput set-prop 10 158 1.4 0 0 0 1.4 0 0 0 1
+xinput set-prop 10 158 1.2 0 0 0 1.2 0 0 0 1
 
 # setup autolock (I use https://github.com/google/xsecurelock)
 xset s 600 5 &
