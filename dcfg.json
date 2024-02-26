@@ -21,7 +21,8 @@
         "/home/jieggii/.config/i3/config",
         "/home/jieggii/.config/user-dirs.dirs",
         "/home/jieggii/.config/redshift/redshift.conf",
-        "/home/jieggii/.config/alacritty/alacritty.toml"
+        "/home/jieggii/.config/alacritty/alacritty.toml",
+        "/home/jieggii/.config/starship.toml"
     ],
     "pins": [
         "deps.txt",

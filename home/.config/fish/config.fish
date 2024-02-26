@@ -4,6 +4,7 @@ set -x PAGER /usr/bin/less
 
 set -x GOPATH $HOME/.go
 set -x ANDROID_HOME $HOME/.android/Sdk
+set -x ARDUINO_SDK_PATH $HOME/Arduino
 
 set -x XDG_CONFIG_HOME $HOME/.config
 
@@ -35,6 +36,9 @@ alias la="eza --long --all --group-directories-first"
 alias ll="eza --long --git --group-directories-first"
 alias tree="eza -T --icons -I __pycache__ --group-directories-first"
 alias l.="eza -a -1 | grep -e '^\.'"
+
+# init starship (https://starship.rs/guide/#step-2-set-up-your-shell-to-use-starship)
+starship init fish | source
 
 # start X11 on login
 if status is-login
