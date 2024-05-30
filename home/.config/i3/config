@@ -3,40 +3,43 @@
 
 set $mod Mod4
 
-# Autostart programs
+# start necessary programs:
 exec_always --no-startup-id ~/.config/polybar/launch.bash
 
 exec --no-startup-id nitrogen --restore
 exec --no-startup-id redshift -l $(curl -s "https://location.services.mozilla.com/v1/geolocate?key=geoclue" | jq -r '"\(.location.lat):\(.location.lng)"')
 exec --no-startup-id nm-applet
-exec --no-startup-id picom
+exec --no-startup-id picom -b
 
 # set USB mouse acceleration
-exec --no-startup-id xinput --set-prop 13 'libinput Accel Speed' 0.75
+# exec --no-startup-id xinput --set-prop 13 'libinput Accel Speed' 0.75
 
-# Program hotkeys
+# hotkeys for launching programs:
 bindsym $mod+Return exec alacritty
 bindsym $mod+p exec alacritty -e python -q
 bindsym $mod+l exec --no-startup-id xset s activate
 bindsym $mod+d exec --no-startup-id dmenu_run -c -l 4 -nb '#282828' -sf '#dfdfdf' -sb 'gray' -nf '#dfdfdf'
 
-# Display swith hotkeys
+# hotkeys for display swithing:
 bindsym $mod+j exec --no-startup-id ~/.scripts/display-output/use-laptop.sh && ~/.scripts/display-output/hook.sh
 bindsym $mod+k exec --no-startup-id ~/.scripts/display-output/use-hdmi.sh && ~/.scripts/display-output/hook.sh
 
+# border settings:
 default_border pixel 1
 default_floating_border pixel 1
 
-# Hide borders
+# hide borders
 hide_edge_borders none
 
 font pango:Fira Code Medium 12
+
 # Use Mouse+$mod to drag floating windows
 floating_modifier $mod
 
+# hotkey for killing windows:
 bindsym $mod+q kill
 
-# Hotkeys for screenshots
+# hotkeys for taking screenshots:
 bindsym Print --release exec --no-startup-id maim | xclip -selection clipboard -t image/png
 bindsym Ctrl+Print --release exec --no-startup-id maim -s | xclip -selection clipboard -t image/png 
 bindsym Shift+Print --release exec --no-startup-id maim ~/pic/screenshots/$(date +%s)-full.png
@@ -44,17 +47,17 @@ bindsym Shift+Ctrl+Print --release exec --no-startup-id maim -s ~/pic/screenshot
 
 focus_follows_mouse yes
 
-# brightness control
+# hotkeys for brightness control:
 bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +2%
 bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 2%-
 
-# change focus
+# hotkeys for changing focus:
 bindsym $mod+Left focus left
 bindsym $mod+Down focus down
 bindsym $mod+Up focus up
 bindsym $mod+Right focus right
 
-# move focused window
+# hotkeys for moving focused window:
 bindsym $mod+Shift+Left move left
 bindsym $mod+Shift+Down move down
 bindsym $mod+Shift+Up move up
@@ -80,9 +83,9 @@ bindsym $mod+Shift+space floating toggle
 bindsym $mod+space focus mode_toggle
 
 # toggle sticky
-bindsym $mod+Shift+s sticky toggle
+# bindsym $mod+Shift+s sticky toggle
 
-#navigate workspaces next / previous
+# navigate workspaces next / previous
 bindsym $mod+Ctrl+Right workspace next
 bindsym $mod+Ctrl+Left workspace prev
 
@@ -112,26 +115,26 @@ bindsym $mod+8 workspace $ws8
 bindsym $mod+9 workspace $ws9
 
 # Move focused container to workspace
-bindsym $mod+Ctrl+1 move container to workspace $ws1
-bindsym $mod+Ctrl+2 move container to workspace $ws2
-bindsym $mod+Ctrl+3 move container to workspace $ws3
-bindsym $mod+Ctrl+4 move container to workspace $ws4
-bindsym $mod+Ctrl+5 move container to workspace $ws5
-bindsym $mod+Ctrl+6 move container to workspace $ws6
-bindsym $mod+Ctrl+7 move container to workspace $ws7
-bindsym $mod+Ctrl+8 move container to workspace $ws8
-bindsym $mod+Ctrl+9 move container to workspace $ws9
+bindsym $mod+Shift+1 move container to workspace $ws1
+bindsym $mod+Shift+2 move container to workspace $ws2
+bindsym $mod+Shift+3 move container to workspace $ws3
+bindsym $mod+Shift+4 move container to workspace $ws4
+bindsym $mod+Shift+5 move container to workspace $ws5
+bindsym $mod+Shift+6 move container to workspace $ws6
+bindsym $mod+Shift+7 move container to workspace $ws7
+bindsym $mod+Shift+8 move container to workspace $ws8
+bindsym $mod+Shift+9 move container to workspace $ws9
 
 # Move to workspace with focused container
-bindsym $mod+Shift+1 move container to workspace $ws1; workspace $ws1
-bindsym $mod+Shift+2 move container to workspace $ws2; workspace $ws2
-bindsym $mod+Shift+3 move container to workspace $ws3; workspace $ws3
-bindsym $mod+Shift+4 move container to workspace $ws4; workspace $ws4
-bindsym $mod+Shift+5 move container to workspace $ws5; workspace $ws5
-bindsym $mod+Shift+6 move container to workspace $ws6; workspace $ws6
-bindsym $mod+Shift+7 move container to workspace $ws7; workspace $ws7
-bindsym $mod+Shift+8 move container to workspace $ws8; workspace $ws8
-bindsym $mod+Shift+9 move container to workspace $ws9; workspace $ws9
+bindsym $mod+Ctrl+1 move container to workspace $ws1; workspace $ws1
+bindsym $mod+Ctrl+2 move container to workspace $ws2; workspace $ws2
+bindsym $mod+Ctrl+3 move container to workspace $ws3; workspace $ws3
+bindsym $mod+Ctrl+4 move container to workspace $ws4; workspace $ws4
+bindsym $mod+Ctrl+5 move container to workspace $ws5; workspace $ws5
+bindsym $mod+Ctrl+6 move container to workspace $ws6; workspace $ws6
+bindsym $mod+Ctrl+7 move container to workspace $ws7; workspace $ws7
+bindsym $mod+Ctrl+8 move container to workspace $ws8; workspace $ws8
+bindsym $mod+Ctrl+9 move container to workspace $ws9; workspace $ws9
 
 # Restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
@@ -140,9 +143,9 @@ bindsym $mod+Shift+r restart
 bindsym $mod+r mode "resize"
 mode "resize" {
         bindsym Left resize shrink width 10 px or 10 ppt
+        bindsym Right resize grow width 10 px or 10 ppt
         bindsym Down resize grow height 10 px or 10 ppt
         bindsym Up resize shrink height 10 px or 10 ppt
-        bindsym Right resize grow width 10 px or 10 ppt
 
         # exit resize mode: Enter or Escape
         bindsym Return mode "default"
@@ -151,12 +154,21 @@ mode "resize" {
 
 # Theme colors
 # class                 border  bg      text    indicator child_border
-client.focused          #556064 #556064 #80FFF9 #FDF6E3
-client.focused_inactive #2F3D44 #2F3D44 #1ABC9C #454948
-client.unfocused        #2F3D44 #2F3D44 #1ABC9C #454948
-client.urgent           #CB4B16 #FDF6E3 #1ABC9C #268BD2
-client.placeholder      #000000 #0c0c0c #ffffff #000000 
-client.background       #2B2C2B
+#client.focused          #556064 #556064 #80FFF9 #FDF6E3
+#client.focused_inactive #2F3D44 #2F3D44 #1ABC9C #454948
+#client.unfocused        #2F3D44 #2F3D44 #1ABC9C #454948
+#client.urgent           #CB4B16 #FDF6E3 #1ABC9C #268BD2
+#client.placeholder      #000000 #0c0c0c #ffffff #000000 
+#client.background       #2B2C2B
+
+#Theme colors
+# class                 border  bg      text    indicator child_border
+client.focused          #b16286 #b16286 #FBF1C7 #FE8019
+client.focused_inactive #3C3836 #3C3836 #A89984 #7C6F64
+client.unfocused        #3C3836 #3C3836 #A89984 #7C6F64
+client.urgent           #CC241D #FBF1C7 #EBDBB2 #FE8019
+client.placeholder      #1D2021 #1D2021 #D5C4A1 #1D2021
+client.background       #282828
 
 # Worspace assignations
 # (https://i3wm.org/docs/userguide.html#assign_workspace)
