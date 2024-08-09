@@ -17,3 +17,5 @@
 	defaultBranch = master
 [safe]
 	directory = /opt/flutter
+[push]
+	autoSetupRemote = true

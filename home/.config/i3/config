@@ -6,8 +6,8 @@ set $mod Mod4
 # start necessary programs:
 exec_always --no-startup-id ~/.config/polybar/launch.bash
 
+exec --no-startup-id redshift-gtk
 exec --no-startup-id nitrogen --restore
-exec --no-startup-id redshift -l $(curl -s "https://location.services.mozilla.com/v1/geolocate?key=geoclue" | jq -r '"\(.location.lat):\(.location.lng)"')
 exec --no-startup-id nm-applet
 exec --no-startup-id picom -b
 
