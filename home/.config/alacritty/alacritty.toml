@@ -2,17 +2,17 @@
 size = 19
 
 [font.bold]
-family = "jetbrains mono"
+family = "hack"
 style = "Bold"
 
 [font.bold_italic]
-family = "jetbrains mono"
+family = "hack"
 style = "Bold Italic"
 
 [font.italic]
-family = "jetbrains mono"
+family = "hack"
 style = "Italic"
 
 [font.normal]
-family = "jetbrains mono"
+family = "hack"
 style = "Regular"
