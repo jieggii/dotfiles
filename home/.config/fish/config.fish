@@ -11,6 +11,9 @@ set -x XDG_CONFIG_HOME $HOME/.config
 function fish_greeting
 end
 
+# omf theme settings:
+set -g theme_display_date no
+set -g theme_color_scheme gruvbox
 #function fish_prompt
 #	echo (echo "(")(basename (pwd))(echo ")")%(echo " ") 
 #end
@@ -38,7 +41,7 @@ alias tree="eza -T --icons -I __pycache__ --group-directories-first"
 alias l.="eza -a -1 | grep -e '^\.'"
 
 # init starship (https://starship.rs/guide/#step-2-set-up-your-shell-to-use-starship)
-starship init fish | source
+# starship init fish | source
 
 # start X11 on login
 if status is-login
